@@ -5,8 +5,8 @@ Co-Friend will be a Coding Practice Service for Beginners.
 ## Team members
 서지원, 김기홍, 김원종, 송민환
 
-## Libraries,  Framework and API
-This list is about library, framework and API which we are using or we will use.
+## Libraries,  Frameworks and APIs
+This list is about libraries, frameworks and APIs which we are using or we will use.
 
 **Machine learning / deep learning**
 * scikit-learn: https://scikit-learn.org/stable/, https://github.com/scikit-learn
