@@ -3,7 +3,7 @@ This repository is about Co-Friend. Co-Friend is Coding + Friend which means a c
 Co-Friend will be a Coding Practice Service for Beginners.
 
 ## Team members
-* 김기홍: 
+* 김기홍: https://github.com/CodingNiceTry
 * 서지원: https://github.com/manips1
 * 송민환: 
 * 김원종: https://github.com/kwjdnjs
