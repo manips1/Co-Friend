@@ -11,7 +11,7 @@ Co-Friend will be a Coding Practice Service for Beginners.
 ## Libraries,  Frameworks and APIs
 This list is about libraries, frameworks and APIs which we are using or we will use.
 
-**Machine learning / deep learning**
+**Machine learning / Deep learning**
 * scikit-learn: https://scikit-learn.org/stable/, https://github.com/scikit-learn
 * TensorFlow: https://www.tensorflow.org/, https://github.com/tensorflow
 * Keras: https://keras.io/, https://github.com/keras-team
