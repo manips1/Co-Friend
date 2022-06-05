@@ -3,10 +3,10 @@ This repository is about Co-Friend. Co-Friend is Coding + Friend which means a c
 Co-Friend will be a Coding Practice Service for Beginners.
 
 ## Team members
-김기홍: 
-서지원: https://github.com/manips1
-송민환: 
-김원종: https://github.com/kwjdnjs
+* 김기홍: 
+* 서지원: https://github.com/manips1
+* 송민환: 
+* 김원종: https://github.com/kwjdnjs
 
 ## Libraries,  Frameworks and APIs
 This list is about libraries, frameworks and APIs which we are using or we will use.
