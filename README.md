@@ -1,4 +1,4 @@
-# 가천대학교 소프트웨어학과 졸업작품 1조 'Co-Friend'
+# Co-Friend
 This repository is about Co-Friend. Co-Friend is Coding + Friend which means a coding beginner's friend.
 Co-Friend will be a Coding Practice Service for Beginners.
 
