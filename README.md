@@ -5,7 +5,7 @@ Co-Friend will be a Coding Practice Service for Beginners.
 ## Team members
 * 김기홍: https://github.com/CodingNiceTry
 * 서지원: https://github.com/manips1
-* 송민환: 
+* 송민환: https://github.com/MinHwan97
 * 김원종: https://github.com/kwjdnjs
 
 ## Libraries,  Frameworks and APIs
