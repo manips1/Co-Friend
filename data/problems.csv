@@ -1,0 +1,11 @@
+Problem,Type1,Type2,Type3,Type4
+Write a Python program to print the following string in a specific format.,print,,,
+Write a Python program to get the Python version you are using.,print,,,
+Write a Python program to display the current date and time.,print,,,
+Write a Python program which accepts the radius of a circle from the user and compute the area.,print,input,,
+Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them.,print,input,,
+Write a Python program which accepts a sequence of comma-separated numbers from user and generate a list and a tuple with those numbers.,print,,list,tuple
+Write a Python program to accept a filename from the user and print the extension of that.,print,,list,
+Write a Python program to display the first and last colors from the following list.,print,,list,
+Write a Python program to display the examination schedule.,print,,,
+Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.,print,input,,
