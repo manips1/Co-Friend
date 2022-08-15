@@ -1,4 +1,4 @@
-Problem,Type1,Type2,Type3,Type4
+Problem,Print,Input,List,Tuple
 Write a Python program to print the following string in a specific format.,print,,,
 Write a Python program to get the Python version you are using.,print,,,
 Write a Python program to display the current date and time.,print,,,
