@@ -1,0 +1,183 @@
+,0
+0, Write a Python function that takes a sequence of numbers and determines whether all the numbers are different from each other. 
+1," Write a Python program to create all possible strings by using 'a', 'e', 'i', 'o', 'u'. Use the characters exactly once. "
+2, Write a Python program to remove and print every third number from a list of numbers until the list becomes empty.
+3, Write a Python program to find unique triplets whose three elements gives the sum of zero from an array of n integers. 
+4, Write a Python program to create the combinations of 3 digit combo. 
+5," Write a Python program to print a long text, convert the string to a list and print all the words and their frequencies. "
+6, Write a Python program to count the number of each character of a given text of a text file. 
+7, Write a Python program to get the top stories from Google news. 
+8, Write a Python program to get a list of locally installed Python modules. 
+9, Write a Python program to display some information about the OS where the script is running. 
+10, Write a Python program to check the sum of three elements (each from an array) from three arrays is equal to a target value. Print all those three-element combinations. 
+11, Write a Python program to create all possible permutations from a given collection of distinct numbers.
+12, Write a Python program to get all possible two digit letter combinations from a digit (1 to 9) string. 
+13, Write a Python program to add two positive integers without using the '+' operator. 
+14," Write a Python program to check the priority of the four operators (+, -, *, /). "
+15, Write a Python program to get the third side of right angled triangle from two given sides. 
+16, Write a Python program to get all strobogrammatic numbers that are of length n. 
+17, Write a Python program to find the median among three given numbers. 
+18, Write a Python program to find the value of n where n degrees of number 2 are written sequentially in a line without spaces. 
+19, Write a Python program to find the number of zeros at the end of a factorial of a given positive number. 
+20," Write a Python program to find the number of notes (Sample of notes: 10, 20, 50, 100, 200 and 500 ) against a given amount. "
+21," Write a Python program to create a sequence where the first four members of the sequence are equal to one, and each successive term of the sequence is equal to the sum of the four previous ones. Find the Nth member of the sequence. "
+22, Write a Python program that accept a positive number and subtract from this number the sum of its digits and so on. Continues this operation until the number is positive. 
+23, Write a Python program to find the number of divisors of a given integer is even or odd. 
+24, Write a Python program to find the digits which are absent in a given mobile number. 
+25, Write a Python program to compute the summation of the absolute difference of all distinct pairs in a given array (non-decreasing order). 
+26, Write a Python program to find the type of the progression (arithmetic progression/geometric progression) and the next successive member of a given three successive members of a sequence. 
+27," Write a Python program to print the length of the series and the series from the given 3rd term, 3rd last term and the sum of a series. "
+28, Write a Python program to find common divisors between two numbers in a given pair. 
+29," Write a Python program to reverse the digits of a given number and add it to the original, If the sum is not a palindrome repeat this procedure. "
+30, Write a Python program to count the number of carry operations for each of a set of addition problems. 
+31, Write a python program to find heights of the top three building in descending order from eight given buildings. 
+32,<br/>
+33, Write a Python program to compute the digit number of sum of two given integers. 
+34,<br/>
+35," Write a Python program to check whether three given lengths (integers) of three sides form a right triangle. Print ""Yes"" if the given sides form a right triangle otherwise print ""No"". "
+36,<br/>
+37, Write a Python program which solve the equation: 
+38,<br/>
+39," Write a Python program to compute the amount of the debt in n months. The borrowing amount is $100,000 and the loan adds 5% interest of the debt and rounds it to the nearest 1,000 above month by month. "
+40,<br/>
+41," Write a Python program which reads an integer n and find the number of combinations of a,b,c and d (0 <= a,b,c,d <= 9) where (a + b + c + d) will be equal to n. "
+42,<br/>
+43, Write a Python program to print the number of prime numbers which are less than or equal to a given integer. 
+44,<br/>
+45," Write a program to compute the radius and the central coordinate (x, y) of a circle which is constructed by three given points on the plane surface. "
+46,<br/>
+47," Write a Python program to check whether a point (x,y) is in a triangle or not. There is a triangle formed by three points. "
+48,<br/>
+49," Write a Python program to compute and print sum of two given integers (more than or equal to zero). If given integers or the sum have more than 80 digits, print ""overflow"". "
+50, Write a Python program that accepts six numbers as input and sorts them in descending order. 
+51,<br/>
+52," Write a Python program to test whether two lines PQ and RS are parallel. The four points are P(x1, y1), Q(x2, y2), R(x3, y3), S(x4, y4). "
+53,<br/>
+54," Write a Python program to find the maximum sum of a contiguous subsequence from a given sequence of numbers a1, a2, a3, ... an. A subsequence of one element is also a continuous subsequence. "
+55,<br/>
+56," There are two circles C1 with radius r1, central coordinate (x1, y1) and C2 with radius r2 and central coordinate (x2, y2). "
+57,<br/>
+58," Write a Python program to that reads a date (from 2016/1/1 to 2016/12/31) and prints the day of the date. Jan. 1, 2016, is Friday. Note that 2016 is a leap year. "
+59,<br/>
+60, Write a Python program which reads a text (only alphabetical characters and spaces.) and prints two words. The first one is the word which is arise most frequently in the text. The second one is the word which has the maximum number of letters. 
+61,<br/>
+62, Write a Python program that reads n digits (given) chosen from 0 to 9 and prints the number of combinations where the sum of the digits equals to another given number (s). Do not use the same digits in a combination. 
+63,<br/>
+64, Write a Python program which reads the two adjoined sides and the diagonal of a parallelogram and check whether the parallelogram is a rectangle or a rhombus. 
+65," Write a Python program to replace a string ""Python"" with ""Java"" and ""Java"" with ""Python"" in a given string. "
+66,<br/>
+67, Write a Python program to find the difference between the largest integer and the smallest integer which are created by 8 numbers from 0 to 9. The number that can be rearranged shall start with 0 as in 00135668. 
+68,<br/>
+69, Write a Python program to compute the sum of first n given prime numbers. 
+70,<br/>
+71," Write a Python program that accept an even number (>=4, Goldbach number) from the user and create a combinations that express the given number as a sum of two prime numbers. Print the number of combinations. "
+72," if you draw a straight line on a plane, the plane is divided into two regions. For example, if you pull two straight lines in parallel, you get three areas, and if you draw vertically one to the other you get 4 areas."
+73,<br/>
+74," There are four different points on a plane, P(x"
+75,<br/>
+76, Write a Python program to sum of all numerical values (positive integers) embedded in a sentence. 
+77,<br/>
+78," There are 10 vertical and horizontal squares on a plane. Each square is painted blue and green. Blue represents the sea, and green represents the land. When two green squares are in contact with the top and bottom, or right and left, they are said to be ground. The area created by only one green square is called ""island"". For example, there are five islands in the figure below. "
+79,<br/>
+80," When character are consecutive in a string , it is possible to shorten the character string by replacing the character with a certain rule. For example, in the case of the character string YYYYY, if it is expressed as # 5 Y, it is compressed by one character. "
+81,<br/>
+82," A convex polygon is a simple polygon in which no line segment between two points on the boundary ever goes outside the polygon. Equivalently, it is a simple polygon whose interior is a convex set. In a convex polygon, all interior angles are less than or equal to 180 degrees, while in a strictly convex polygon all interior angles are strictly less than 180 degrees. "
+83,<br/>
+84," Internet search engine giant, such as Google accepts web pages around the world and classify them, creating a huge database. The search engines also analyze the search keywords entered by the user and create inquiries for database search. In both cases, complicated processing is carried out in order to realize efficient retrieval, but basics are all cutting out words from sentences. "
+85,<br/>
+86," Arrange integers (0 to 99) as narrow hilltop, as illustrated in Figure 1. Reading such data representing huge, when starting from the top and proceeding according to the next rule to the bottom. Write a Python program that compute the maximum value of the sum of the passing integers. "
+87,<br/>
+88," Write a Python program to find the number of combinations that satisfy p + q + r + s = n where n is a given number <= 4000 and p, q, r, s in the range of 0 to 1000. "
+89, Write a Python program which adds up columns and rows of given table as shown in the specified figure. 
+90," Given a list of numbers and a number k, write a Python program to check whether the sum of any two numbers from the list is equal to k or not. "
+91," In mathematics, a subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements. For example, the sequence (A,B,D) is a subsequence of (A,B,C,D,E,F) obtained after removal of elements C, E, and F. The relation of one sequence being the subsequence of another is a preorder."
+92," From Wikipedia, the free encyclopaedia:"
+93," From Wikipedia,"
+94, Write a Python program to count the number of prime numbers less than a given non-negative number. 
+95," In abstract algebra, a group isomorphism is a function between two groups that sets up a one-to-one correspondence between the elements of the groups in a way that respects the given group operations. If there exists an isomorphism between two groups, then the groups are called isomorphic."
+96, Write a Python program to find the longest common prefix string amongst a given array of strings. Return false If there is no common prefix.
+97, Write a Python program to reverse only the vowels of a given string. 
+98, Write a Python program to check whether a given integer is a palindrome or not. 
+99, Write a Python program to remove the duplicate elements of a given array of numbers such that each element appear only once and return the new length of the given array. 
+100, Write a Python program to calculate the maximum profit from selling and buying values of stock. An array of numbers represent the stock prices in chronological order. 
+101, Write a Python program to remove all instances of a given value from a given array of integers and find the length of the new array. 
+102," Write a Python program to find the starting and ending position of a given value in a given array of integers, sorted in ascending order. "
+103, The price of a given stock on each day is stored in an array. 
+104, Write a Python program to print a given N by M matrix of numbers line by line in forward > backwards > forward >... order. 
+105, Write a Python program to compute the largest product of three integers from a given list of integers. 
+106, Write a Python program to find the first missing positive integer that does not exist in a given list. 
+107, Write a Python program to randomly generate a list with 10 even numbers between 1 and 100 inclusive. 
+108, Write a Python program to calculate the median from a list of numbers. 
+109, Write a Python program to test whether a given number is symmetrical or not. 
+110, Write a Python program that accepts a list of numbers. Count the negative numbers and compute the sum of the positive numbers of the said list. Return these values through a list. 
+111, From Wikipedia:
+112, Write a Python program to count the number of equal numbers from three given integers. 
+113, Write a Python program to check whether a given employee code is exactly 8 digits or 12 digits. Return True if the employee code is valid and False if it's not. 
+114, Write a Python program that accept two strings and test if the letters in the second string are present in the first string. 
+115, Write a Python program to compute the sum of the three lowest positive numbers from a given list of numbers. 
+116," Write a Python program to replace all but the last five characters of a given string with ""*"" and returns the new string. "
+117, Write a Python program to count the number of arguments in a given function. 
+118, Write a Python program to compute cumulative sum of numbers of a given list. 
+119," Write a Python program to find the middle character(s) of a given string. If the length of the string is even return the two middle characters. If the length of the string is odd, return the middle character. "
+120, Write a Python program to find the largest product of the pair of adjacent elements from a given list of integers. 
+121, Write a Python program to check whether every even index contains an even number and every odd index contains odd number of a given list. 
+122, Write a Python program to check whether a given number is a narcissistic number or not. 
+123, Write a Python program to find the highest and lowest number from a given string of space separated integers. 
+124, Write a Python program to check whether a sequence of numbers has an increasing trend or not. 
+125, Write a Python program to find the position of the second occurrence of a given string in another given string. If there is no such string return -1. 
+126, Write a Python program to compute the sum of all items of a given array of integers where each integer is multiplied by its index. Return 0 if there is no number. 
+127, Write a Python program to find the name of the oldest student from a given dictionary containing the names and ages of a group of students. 
+128, Write a Python program to create a new string with no duplicate consecutive letters from a given string. 
+129, Write a Python program to check whether two given lines are parallel or not. 
+130," Write a Python program to find a number in a given matrix, which is maximum in its column and minimum in its row. "
+131," Write a Python program to check whether a given sequence is linear, quadratic or cubic. "
+132, Write a Python program to test whether a given integer is Pandigital number or not. 
+133, Write a Python program to check whether a given number is Oddish or Evenish. 
+134, Write a Python program that takes three integers and check whether the sum of the last digit of first number and the last digit of second number equal to the last digit of third number. 
+135, Write a Python program find the indices of all occurrences of a given item in a given list. 
+136, Write a Python program to remove the duplicate numbers from a given list of numbers. 
+137," Write a Python program to check whether two given circles (given center (x,y) and radius) are intersecting. Return true for intersecting otherwise false. "
+138, Write a Python program to compute the digit distance between two integers. 
+139, Write a Python program to reverse all the words which have even length. 
+140, Write a Python program to print letters from the English alphabet from a-z and A-Z. 
+141, Write a Python program to generate and prints a list of numbers from 1 to 10. 
+142, Write a Python program to identify nonprime numbers between 1 to 100 (integers). Print the nonprime numbers. 
+143," Write a Python program to make a request to a web page, and test the status code, also display the html code of the specified web page. "
+144," In multiprocessing, processes are spawned by creating a Process object. Write a Python program to show the individual process IDs (parent process, process id etc.) involved. "
+145, Write a Python program to check if two given numbers are Co Prime or not. Return True if two numbers are Co Prime otherwise return false. 
+146, Write a Python program to calculate Euclid's totient function of a given integer. Use a primitive method to calculate Euclid's totient function. 
+147," Write a Python program to create a coded string from a given string, using specified formula. "
+148, Write a Python program to check if a given string contains only lowercase or uppercase characters. 
+149, Write a Python program to remove the first and last elements from a given string. 
+150, Write a Python program to check if a given string contains two similar consecutive letters. 
+151, Write a Python program to reverse a given string in lower case. 
+152, Write a Python program to convert the letters of a given string (same case-upper/lower) into alphabetical order. 
+153, Write a Python program to check whether the average value of the elements of a given array of numbers is a whole number or not. 
+154, Write a Python program to remove all vowels from a given string. 
+155, Write a Python program to get the index number of all lower case letters in a given string. 
+156, Write a Python program to check whether a given month and year contains a Monday 13
+157, Write a Python program to count number of zeros and ones in the binary representation of a given integer. 
+158, Write a Python program to find all the factors of a given natural number. 
+159, Write a Python program to compute the sum of the negative and positive numbers of an array of integers and display the largest sum. 
+160, Write a Python program to alternate the case of each letter in a given string and the first letter of the said string must be uppercase. 
+161, Write a Python program to get the Least Common Multiple (LCM) of more than two numbers. Take the numbers from a given list of positive integers. 
+162, Write a Python program to reverse all the words which have odd length. 
+163, Write a Python program to find the longest common ending between two given strings. 
+164, Write a Python program to reverse the binary representation of an given integer and convert the reversed binary number into an integer. 
+165, Write a Python program to find the closest palindrome number of a given integer. If there are two palindrome numbers in absolute distance return the smaller number. 
+166, Write a Python program to convert all items in a given list to float values. 
+167, Write a Python program to get the domain name using PTR DNS records from a given IP address. 
+168, Write a Python program to check if every consecutive sequence of zeroes is followed by a consecutive sequence of ones of same length in a given string. Return True/False. 
+169, Write a Python program to print Emojis using unicode characters or CLDR (Common Locale Data Repository ) short names. 
+170, Write a Python program to convert integer to string. 
+171, Write a Python program to find the largest and smallest digit of a given number. 
+172, A Python list contains two positive integers. Write a Python program to check whether the cube root of the first number is equal to the square root of the second number. 
+173, 
+174, A Python list contains three positive integers. Write a Python program to check whether the sum of the digits in each number is equal or not. Return true otherwise false. 
+175, 
+176, A Python list contains some positive integers. Write a Python program to count the numbers that are greater than the previous number on the list.
+177, 
+178, Write a Python program that takes a positive integer and create an N x N square filled with the integer N. Display the N x N square.
+179, 
+180, Write a Python program that takes a positive integer and calculate the cube root of the number until the number is less than three. Count the number of steps to complete the said process.
+181, 
