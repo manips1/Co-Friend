@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfb797ae-5415-42c0-92c9-ded0f705b66e" name="Changes" comment="" />
+    <list default="true" id="4fafb724-007d-43b7-8eec-857c01ae59d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/main/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoFriend/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoFriend/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoFriend/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoFriend/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoFriend/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +26,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2DjsxrkjAij3ACTFl3oCEPIBDD6" />
+  <component name="ProjectId" id="2EUBlpZfpY29uc5ZJdUBo7BociX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,11 +45,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bfb797ae-5415-42c0-92c9-ded0f705b66e" name="Changes" comment="" />
-      <created>1661224078112</created>
+      <changelist id="4fafb724-007d-43b7-8eec-857c01ae59d2" name="Changes" comment="" />
+      <created>1662640440730</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661224078112</updated>
+      <updated>1662640440730</updated>
     </task>
     <servers />
   </component>
