@@ -1,0 +1,31 @@
+{% load static %}
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <title>CoFriend</title>
+</head>
+<body>
+<!-- 내비게이션바 -->
+<nav class="navbar min-width">
+    <a class="nav-logo" href="#">CoFriend</a>
+    <div class="nav-wrapper">
+        <a class="nav-item" href="#">Home</a>
+        <a class="nav-item" href="#">nav1</a>
+        <a class="nav-item" href="#">nav2</a>
+        <a class="nav-item" href="#">nav3</a>
+    </div>
+</nav>
+
+<!-- 페이지 내용 -->
+{% block content %}
+{% endblock %}
+
+<footer class="min-width">
+    <span>footer</span>
+</footer>
+
+</body>
+</html>
