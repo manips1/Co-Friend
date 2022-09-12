@@ -10,12 +10,14 @@
 <body>
 <!-- 내비게이션바 -->
 <nav class="navbar min-width">
-    <a class="nav-logo" href="#">CoFriend</a>
-    <div class="nav-wrapper">
-        <a class="nav-item" href="#">Home</a>
-        <a class="nav-item" href="#">nav1</a>
-        <a class="nav-item" href="#">nav2</a>
-        <a class="nav-item" href="#">nav3</a>
+    <div class="nav-container max-width">
+        <a class="nav-logo" href="#">CoFriend</a>
+        <div class="nav-content">
+            <a class="nav-item" href="#">Home</a>
+            <a class="nav-item" href="#">nav1</a>
+            <a class="nav-item" href="#">nav2</a>
+            <a class="nav-item" href="#">nav3</a>
+        </div>
     </div>
 </nav>
 
@@ -23,8 +25,10 @@
 {% block content %}
 {% endblock %}
 
-<footer class="min-width">
-    <span>footer</span>
+<footer class="footer-bar min-width">
+    <div class="footer-container max-width">
+        footer
+    </div>
 </footer>
 
 </body>
