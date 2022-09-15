@@ -1,86 +1,86 @@
 Problem,Print,Input,List,Tuple,Date,If,Function,For,String,While,Set,Math
-0, Write a Python function that takes a sequence of numbers and determines whether all the numbers are different from each other. 
-1," Write a Python program to create all possible strings by using 'a', 'e', 'i', 'o', 'u'. Use the characters exactly once. "
-2, Write a Python program to remove and print every third number from a list of numbers until the list becomes empty.
-3, Write a Python program to find unique triplets whose three elements gives the sum of zero from an array of n integers. 
-4, Write a Python program to create the combinations of 3 digit combo. 
-5," Write a Python program to print a long text, convert the string to a list and print all the words and their frequencies. "
-6, Write a Python program to count the number of each character of a given text of a text file. 
-7, Write a Python program to get the top stories from Google news. 
-8, Write a Python program to get a list of locally installed Python modules. 
-9, Write a Python program to display some information about the OS where the script is running. 
-10, Write a Python program to check the sum of three elements (each from an array) from three arrays is equal to a target value. Print all those three-element combinations. 
-11, Write a Python program to create all possible permutations from a given collection of distinct numbers.
-12, Write a Python program to get all possible two digit letter combinations from a digit (1 to 9) string. 
-13, Write a Python program to add two positive integers without using the '+' operator. 
-14," Write a Python program to check the priority of the four operators (+, -, *, /). "
-15, Write a Python program to get the third side of right angled triangle from two given sides. 
-16, Write a Python program to get all strobogrammatic numbers that are of length n. 
-17, Write a Python program to find the median among three given numbers. 
-18, Write a Python program to find the value of n where n degrees of number 2 are written sequentially in a line without spaces. 
-19, Write a Python program to find the number of zeros at the end of a factorial of a given positive number. 
-20," Write a Python program to find the number of notes (Sample of notes: 10, 20, 50, 100, 200 and 500 ) against a given amount. "
-21," Write a Python program to create a sequence where the first four members of the sequence are equal to one, and each successive term of the sequence is equal to the sum of the four previous ones. Find the Nth member of the sequence. "
-22, Write a Python program that accept a positive number and subtract from this number the sum of its digits and so on. Continues this operation until the number is positive. 
-23, Write a Python program to find the number of divisors of a given integer is even or odd. 
-24, Write a Python program to find the digits which are absent in a given mobile number. 
-25, Write a Python program to compute the summation of the absolute difference of all distinct pairs in a given array (non-decreasing order). 
-26, Write a Python program to find the type of the progression (arithmetic progression/geometric progression) and the next successive member of a given three successive members of a sequence. 
-27," Write a Python program to print the length of the series and the series from the given 3rd term, 3rd last term and the sum of a series. "
-28, Write a Python program to find common divisors between two numbers in a given pair. 
-29," Write a Python program to reverse the digits of a given number and add it to the original, If the sum is not a palindrome repeat this procedure. "
-30, Write a Python program to count the number of carry operations for each of a set of addition problems. 
-31, Write a python program to find heights of the top three building in descending order from eight given buildings. 
-32,<br/>
-33, Write a Python program to compute the digit number of sum of two given integers. 
-34,<br/>
-35," Write a Python program to check whether three given lengths (integers) of three sides form a right triangle. Print ""Yes"" if the given sides form a right triangle otherwise print ""No"". "
-36,<br/>
-37, Write a Python program which solve the equation: 
-38,<br/>
-39," Write a Python program to compute the amount of the debt in n months. The borrowing amount is $100,000 and the loan adds 5% interest of the debt and rounds it to the nearest 1,000 above month by month. "
-40,<br/>
-41," Write a Python program which reads an integer n and find the number of combinations of a,b,c and d (0 <= a,b,c,d <= 9) where (a + b + c + d) will be equal to n. "
-42,<br/>
-43, Write a Python program to print the number of prime numbers which are less than or equal to a given integer. 
-44,<br/>
-45," Write a program to compute the radius and the central coordinate (x, y) of a circle which is constructed by three given points on the plane surface. "
-46,<br/>
-47," Write a Python program to check whether a point (x,y) is in a triangle or not. There is a triangle formed by three points. "
-48,<br/>
-49," Write a Python program to compute and print sum of two given integers (more than or equal to zero). If given integers or the sum have more than 80 digits, print ""overflow"". "
-50, Write a Python program that accepts six numbers as input and sorts them in descending order. 
-51,<br/>
-52," Write a Python program to test whether two lines PQ and RS are parallel. The four points are P(x1, y1), Q(x2, y2), R(x3, y3), S(x4, y4). "
-53,<br/>
-54," Write a Python program to find the maximum sum of a contiguous subsequence from a given sequence of numbers a1, a2, a3, ... an. A subsequence of one element is also a continuous subsequence. "
-55,<br/>
-56," There are two circles C1 with radius r1, central coordinate (x1, y1) and C2 with radius r2 and central coordinate (x2, y2). "
-57,<br/>
-58," Write a Python program to that reads a date (from 2016/1/1 to 2016/12/31) and prints the day of the date. Jan. 1, 2016, is Friday. Note that 2016 is a leap year. "
-59,<br/>
-60, Write a Python program which reads a text (only alphabetical characters and spaces.) and prints two words. The first one is the word which is arise most frequently in the text. The second one is the word which has the maximum number of letters. 
-61,<br/>
-62, Write a Python program that reads n digits (given) chosen from 0 to 9 and prints the number of combinations where the sum of the digits equals to another given number (s). Do not use the same digits in a combination. 
-63,<br/>
-64, Write a Python program which reads the two adjoined sides and the diagonal of a parallelogram and check whether the parallelogram is a rectangle or a rhombus. 
-65," Write a Python program to replace a string ""Python"" with ""Java"" and ""Java"" with ""Python"" in a given string. "
-66,<br/>
-67, Write a Python program to find the difference between the largest integer and the smallest integer which are created by 8 numbers from 0 to 9. The number that can be rearranged shall start with 0 as in 00135668. 
-68,<br/>
-69, Write a Python program to compute the sum of first n given prime numbers. 
-70,<br/>
-71," Write a Python program that accept an even number (>=4, Goldbach number) from the user and create a combinations that express the given number as a sum of two prime numbers. Print the number of combinations. "
-72," if you draw a straight line on a plane, the plane is divided into two regions. For example, if you pull two straight lines in parallel, you get three areas, and if you draw vertically one to the other you get 4 areas."
-73,<br/>
-74," There are four different points on a plane, P(x"
-75,<br/>
-76, Write a Python program to sum of all numerical values (positive integers) embedded in a sentence. 
-77,<br/>
-78," There are 10 vertical and horizontal squares on a plane. Each square is painted blue and green. Blue represents the sea, and green represents the land. When two green squares are in contact with the top and bottom, or right and left, they are said to be ground. The area created by only one green square is called ""island"". For example, there are five islands in the figure below. "
-79,<br/>
-80," When character are consecutive in a string , it is possible to shorten the character string by replacing the character with a certain rule. For example, in the case of the character string YYYYY, if it is expressed as # 5 Y, it is compressed by one character. "
-81,<br/>
+0, Write a Python function that takes a sequence of numbers and determines whether all the numbers are different from each other. ,print,,,,,,,,,,,
+1," Write a Python program to create all possible strings by using 'a', 'e', 'i', 'o', 'u'. Use the characters exactly once. ",print,,,,,,,,,,,
+2, Write a Python program to remove and print every third number from a list of numbers until the list becomes empty.,print,,,,,,,,,,,
+3, Write a Python program to find unique triplets whose three elements gives the sum of zero from an array of n integers. ,print,,,,,,,,,,,
+4, Write a Python program to create the combinations of 3 digit combo. ,print,,,,,,,,,,,
+5," Write a Python program to print a long text, convert the string to a list and print all the words and their frequencies. ",print,,,,,,,,,,,
+6, Write a Python program to count the number of each character of a given text of a text file. ,print,,,,,,,,,,,
+7, Write a Python program to get the top stories from Google news. ,print,,,,,,,,,,,
+8, Write a Python program to get a list of locally installed Python modules. ,print,,,,,,,,,,,
+9, Write a Python program to display some information about the OS where the script is running. ,print,,,,,,,,,,,
+10, Write a Python program to check the sum of three elements (each from an array) from three arrays is equal to a target value. Print all those three-element combinations.,print,,,,,,,,,,, 
+11, Write a Python program to create all possible permutations from a given collection of distinct numbers.,print,,,,,,,,,,,
+12, Write a Python program to get all possible two digit letter combinations from a digit (1 to 9) string. ,print,,,,,,,,,,,
+13, Write a Python program to add two positive integers without using the '+' operator. ,print,,,,,,,,,,,
+14," Write a Python program to check the priority of the four operators (+, -, *, /). ",print,,,,,,,,,,,
+15, Write a Python program to get the third side of right angled triangle from two given sides. ,print,,,,,,,,,,,
+16, Write a Python program to get all strobogrammatic numbers that are of length n. ,print,,,,,,,,,,,
+17, Write a Python program to find the median among three given numbers. ,print,,,,,,,,,,,
+18, Write a Python program to find the value of n where n degrees of number 2 are written sequentially in a line without spaces. ,print,,,,,,,,,,,
+19, Write a Python program to find the number of zeros at the end of a factorial of a given positive number. ,print,,,,,,,,,,,
+20," Write a Python program to find the number of notes (Sample of notes: 10, 20, 50, 100, 200 and 500 ) against a given amount. ",print,,,,,,,,,,,
+21," Write a Python program to create a sequence where the first four members of the sequence are equal to one, and each successive term of the sequence is equal to the sum of the four previous ones. Find the Nth member of the sequence. ",print,,,,,,,,,,,
+22, Write a Python program that accept a positive number and subtract from this number the sum of its digits and so on. Continues this operation until the number is positive. ,print,,,,,,,,,,,
+23, Write a Python program to find the number of divisors of a given integer is even or odd. ,print,,,,,,,,,,,
+24, Write a Python program to find the digits which are absent in a given mobile number. ,print,,,,,,,,,,,
+25, Write a Python program to compute the summation of the absolute difference of all distinct pairs in a given array (non-decreasing order). ,print,,,,,,,,,,,
+26, Write a Python program to find the type of the progression (arithmetic progression/geometric progression) and the next successive member of a given three successive members of a sequence. ,print,,,,,,,,,,,
+27," Write a Python program to print the length of the series and the series from the given 3rd term, 3rd last term and the sum of a series. ",print,,,,,,,,,,,
+28, Write a Python program to find common divisors between two numbers in a given pair. ,print,,,,,,,,,,,
+29," Write a Python program to reverse the digits of a given number and add it to the original, If the sum is not a palindrome repeat this procedure. ",print,,,,,,,,,,,
+30, Write a Python program to count the number of carry operations for each of a set of addition problems. ,print,,,,,,,,,,,
+31, Write a python program to find heights of the top three building in descending order from eight given buildings. ,print,,,,,,,,,,,
+32,<br/>,print,,,,,,,,,,,
+33, Write a Python program to compute the digit number of sum of two given integers. ,print,,,,,,,,,,,
+34,<br/>,print,,,,,,,,,,,
+35," Write a Python program to check whether three given lengths (integers) of three sides form a right triangle. Print ""Yes"" if the given sides form a right triangle otherwise print ""No"". ",print,,,,,,,,,,,
+36,<br/>,print,,,,,,,,,,,
+37, Write a Python program which solve the equation: ,print,,,,,,,,,,,
+38,<br/>,print,,,,,,,,,,,
+39," Write a Python program to compute the amount of the debt in n months. The borrowing amount is $100,000 and the loan adds 5% interest of the debt and rounds it to the nearest 1,000 above month by month. ",print,,,,,,,,,,,
+40,<br/>,print,,,,,,,,,,,
+41," Write a Python program which reads an integer n and find the number of combinations of a,b,c and d (0 <= a,b,c,d <= 9) where (a + b + c + d) will be equal to n. ",print,,,,,,,,,,,
+42,<br/>,print,,,,,,,,,,,
+43, Write a Python program to print the number of prime numbers which are less than or equal to a given integer. ,print,,,,,,,,,,,
+44,<br/>,print,,,,,,,,,,,
+45," Write a program to compute the radius and the central coordinate (x, y) of a circle which is constructed by three given points on the plane surface. ",print,,,,,,,,,,,
+46,<br/>,print,,,,,,,,,,,
+47," Write a Python program to check whether a point (x,y) is in a triangle or not. There is a triangle formed by three points. ",print,,,,,,,,,,,
+48,<br/>,print,,,,,,,,,,,
+49," Write a Python program to compute and print sum of two given integers (more than or equal to zero). If given integers or the sum have more than 80 digits, print ""overflow"". ",print,,,,,,,,,,,
+50, Write a Python program that accepts six numbers as input and sorts them in descending order. ,print,,,,,,,,,,,
+51,<br/>,print,,,,,,,,,,,
+52," Write a Python program to test whether two lines PQ and RS are parallel. The four points are P(x1, y1), Q(x2, y2), R(x3, y3), S(x4, y4). ",print,,,,,,,,,,,
+53,<br/>,print,,,,,,,,,,,
+54," Write a Python program to find the maximum sum of a contiguous subsequence from a given sequence of numbers a1, a2, a3, ... an. A subsequence of one element is also a continuous subsequence. ",print,,,,,,,,,,,
+55,<br/>,print,,,,,,,,,,,
+56," There are two circles C1 with radius r1, central coordinate (x1, y1) and C2 with radius r2 and central coordinate (x2, y2). ",print,,,,,,,,,,,
+57,<br/>,print,,,,,,,,,,,
+58," Write a Python program to that reads a date (from 2016/1/1 to 2016/12/31) and prints the day of the date. Jan. 1, 2016, is Friday. Note that 2016 is a leap year. ",print,,,,,,,,,,,
+59,<br/>,print,,,,,,,,,,,
+60, Write a Python program which reads a text (only alphabetical characters and spaces.) and prints two words. The first one is the word which is arise most frequently in the text. The second one is the word which has the maximum number of letters. ,print,,,,,,,,,,,
+61,<br/>,print,,,,,,,,,,,
+62, Write a Python program that reads n digits (given) chosen from 0 to 9 and prints the number of combinations where the sum of the digits equals to another given number (s). Do not use the same digits in a combination.,print,,,,,,,,,,, 
+63,<br/>,print,,,,,,,,,,,
+64, Write a Python program which reads the two adjoined sides and the diagonal of a parallelogram and check whether the parallelogram is a rectangle or a rhombus. ,print,,,,,,,,,,,
+65," Write a Python program to replace a string ""Python"" with ""Java"" and ""Java"" with ""Python"" in a given string. ",print,,,,,,,,,,,
+66,<br/>,print,,,,,,,,,,,
+67, Write a Python program to find the difference between the largest integer and the smallest integer which are created by 8 numbers from 0 to 9. The number that can be rearranged shall start with 0 as in 00135668.,print,,,,,,,,,,, 
+68,<br/>,print,,,,,,,,,,,
+69, Write a Python program to compute the sum of first n given prime numbers. ,print,,,,,,,,,,,
+70,<br/>,print,,,,,,,,,,,
+71," Write a Python program that accept an even number (>=4, Goldbach number) from the user and create a combinations that express the given number as a sum of two prime numbers. Print the number of combinations. ",print,,,,,,,,,,,
+72," if you draw a straight line on a plane, the plane is divided into two regions. For example, if you pull two straight lines in parallel, you get three areas, and if you draw vertically one to the other you get 4 areas.",print,,,,,,,,,,,
+73,<br/>,print,,,,,,,,,,,
+74," There are four different points on a plane, P(x",print,,,,,,,,,,,
+75,<br/>,print,,,,,,,,,,,
+76, Write a Python program to sum of all numerical values (positive integers) embedded in a sentence. ,print,,,,,,,,,,,
+77,<br/>,print,,,,,,,,,,,
+78," There are 10 vertical and horizontal squares on a plane. Each square is painted blue and green. Blue represents the sea, and green represents the land. When two green squares are in contact with the top and bottom, or right and left, they are said to be ground. The area created by only one green square is called ""island"". For example, there are five islands in the figure below. ",print,,,,,,,,,,,
+79,<br/>,print,,,,,,,,,,,
+80," When character are consecutive in a string , it is possible to shorten the character string by replacing the character with a certain rule. For example, in the case of the character string YYYYY, if it is expressed as # 5 Y, it is compressed by one character. ",print,,,,,,,,,,,
+81,<br/>,print,,,,,,,,,,,
 82," A convex polygon is a simple polygon in which no line segment between two points on the boundary ever goes outside the polygon. Equivalently, it is a simple polygon whose interior is a convex set. In a convex polygon, all interior angles are less than or equal to 180 degrees, while in a strictly convex polygon all interior angles are strictly less than 180 degrees. "
 83,<br/>
 84," Internet search engine giant, such as Google accepts web pages around the world and classify them, creating a huge database. The search engines also analyze the search keywords entered by the user and create inquiries for database search. In both cases, complicated processing is carried out in order to realize efficient retrieval, but basics are all cutting out words from sentences. "
