@@ -1,0 +1,110 @@
+﻿problem2,print,input,list,tuple,date,if,function,for,string,while,set,math
+Write a Python function that takes a sequence of numbers and determines whether all the numbers are different from each other.,o,,,,,o,o,,,,,
+"Write a Python program to create all possible strings by using 'a', 'e', 'i', 'o', 'u'. Use the characters exactly once",o,,o,,,,,,,,,
+Write a Python program to remove and print every third number from a list of numbers until the list becomes empty.,o,,o,o,,,,,,o,,o
+Write a Python program to find unique triplets whose three elements gives the sum of zero from an array of n integers.,o,,o,o,,o,o,o,o,o,,o
+Write a Python program to create the combinations of 3 digit combo. ,o,,o,o,,,,,,,,
+"Write a Python program to print a long text, convert the string to a list and print all the words and their frequencies",o,,o,,,,,o,o,,,
+Write a Python program to count the number of each character of a given text of a text file,o,,,,,,,o,,,,
+Write a Python program to get the top stories from Google news.,o,,,,,,,o,,,,
+Write a Python program to get a list of locally installed Python modules.,o,,,,,,,o,,,,
+Write a Python program to display some information about the OS where the script is running. ,o,,o,,,o,,o,,,,
+Write a Python program to check the sum of three elements (each from an array) from three arrays is equal to a target value. Print all those three-element combinations.,o,,o,o,,o,o,o,,,,
+Write a Python program to create all possible permutations from a given collection of distinct numbers.,o,,o,,,,o,o,,,,
+Write a Python program to get all possible two digit letter combinations from a digit (1 to 9) string.,o,,o,,,o,o,o,o,,,
+Write a Python program to add two positive integers without using the '+' operator,o,,,,,,o,,,o,,o
+"Write a Python program to check the priority of the four operators (+, -, *, /). ",o,,,,,,o,,o,,,o
+Write a Python program to get the third side of right angled triangle from two given sides.,o,,,,,o,o,,o,,,o
+Write a Python program to get all strobogrammatic numbers that are of length n,o,,o,,,o,o,o,o,,,o
+Write a Python program to find the median among three given numbers,o,o,,,,o,,,,,,o
+Write a Python program to find the value of n where n degrees of number 2 are written sequentially in a line without spaces.,o,,,,,o,o,,,o,,o
+Write a Python program to find the number of zeros at the end of a factorial of a given positive number.,o,,,,,,o,,,o,,o
+"Write a Python program to find the number of notes (Sample of notes: 10, 20, 50, 100, 200 and 500 ) against a given amount.",o,,o,,,o,o,o,,,,o
+"Write a Python program to create a sequence where the first four members of the sequence are equal to one, and each successive term of the sequence is equal to the sum of the four previous ones. Find the Nth member of the sequence. ",o,,,,,o,o,,,,,o
+Write a Python program that accept a positive number and subtract from this number the sum of its digits and so on. Continues this operation until the number is positive,o,,o,,,,o,o,o,o,,
+ Write a Python program to find the number of divisors of a given integer is even or odd. ,o,,o,,,o,o,,,,,o
+Write a Python program to find the digits which are absent in a given mobile number,o,,o,,,,o,o,,,o,
+Write a Python program to compute the summation of the absolute difference of all distinct pairs in a given array (non-decreasing order). ,o,,o,,,,o,,,o,,o
+Write a Python program to find the type of the progression (arithmetic progression/geometric progression) and the next successive member of a given three successive members of a sequence. ,o,,o,,,o,o,,o,,,o
+"Write a Python program to print the length of the series and the series from the given 3rd term, 3rd last term and the sum of a series.",o,o,,,,o,,o,,,,o
+Write a Python program to find common divisors between two numbers in a given pair. ,o,,,,,o,o,,,o,,o
+"Write a Python program to reverse the digits of a given number and add it to the original, If the sum is not a palindrome repeat this procedure.",o,,o,,,o,o,,o,o,,o
+Write a Python program to count the number of carry operations for each of a set of addition problems.,o,,,,,o,o,o,o,,,o
+Write a python program to find heights of the top three building in descending order from eight given buildings.,o,,o,,,,,o,,,,o
+Write a Python program to compute the digit number of sum of two given integers.,o,o,,,,,,,o,,,o
+"Write a Python program to check whether three given lengths (integers) of three sides form a right triangle. Print ""Yes"" if the given sides form a right triangle otherwise print ""No"".",o,,o,,,o,,,,,,o
+Write a Python program which solve the equation:,o,o,,,,o,,,,,,o
+"Write a Python program to compute the amount of the debt in n months. The borrowing amount is $100,000 and the loan adds 5% interest of the debt and rounds it to the nearest 1,000 above month by month. ",o,o,,,,o,o,,o,,,o
+"Write a Python program which reads an integer n and find the number of combinations of a,b,c and d (0 <= a,b,c,d <= 9) where (a + b + c + d) will be equal to n.",o,o,,,,,,o,,,,o
+Write a Python program to print the number of prime numbers which are less than or equal to a given integer,o,o,o,,,o,,o,,,,o
+"Write a program to compute the radius and the central coordinate (x, y) of a circle which is constructed by three given points on the plane surface.",o,o,,,,,,,,,,o
+"Write a Python program to check whether a point (x,y) is in a triangle or not. There is a triangle formed by three points.",o,o,,,,o,,,,,,o
+"Write a Python program to compute and print sum of two given integers (more than or equal to zero). If given integers or the sum have more than 80 digits, print ""overflow""",o,o,,,,o,,,,,,o
+ Write a Python program that accepts six numbers as input and sorts them in descending order. ,o,o,o,,,,,,,,,o
+"Write a Python program to test whether two lines PQ and RS are parallel. The four points are P(x1, y1), Q(x2, y2), R(x3, y3), S(x4, y4).",o,o,,,,o,,,,,,o
+"Write a Python program to find the maximum sum of a contiguous subsequence from a given sequence of numbers a1, a2, a3, ... an. A subsequence of one element is also a continuous subsequence",o,o,o,,,o,,o,,o,,o
+"There are two circles C1 with radius r1, central coordinate (x1, y1) and C2 with radius r2 and central coordinate (x2, y2). ",o,o,,,,o,,o,,,,o
+"Write a Python program to that reads a date (from 2016/1/1 to 2016/12/31) and prints the day of the date. Jan. 1, 2016, is Friday. Note that 2016 is a leap year.",o,o,o,,o,,,,,,,
+Write a Python program which reads a text (only alphabetical characters and spaces.) and prints two words. The first one is the word which is arise most frequently in the text. The second one is the word which has the maximum number of letters. ,o,o,o,,,o,,o,o,,,o
+ Write a Python program that reads n digits (given) chosen from 0 to 9 and prints the number of combinations where the sum of the digits equals to another given number (s). Do not use the same digits in a combination.,o,o,o,,,o,,o,,o,,o
+Write a Python program which reads the two adjoined sides and the diagonal of a parallelogram and check whether the parallelogram is a rectangle or a rhombus.,o,o,,,,o,,,,,,o
+" Write a Python program to replace a string ""Python"" with ""Java"" and ""Java"" with ""Python"" in a given string.",o,o,o,,,o,,o,,,,o
+Write a Python program to find the difference between the largest integer and the smallest integer which are created by 8 numbers from 0 to 9. The number that can be rearranged shall start with 0 as in 00135668.,o,o,o,,,,,,,,,o
+Write a Python program to compute the sum of first n given prime numbers. ,o,o,o,,,o,,o,,o,,o
+"Write a Python program that accept an even number (>=4, Goldbach number) from the user and create a combinations that express the given number as a sum of two prime numbers. Print the number of combinations. ",o,o,o,,,o,,o,,,,o
+"if you draw a straight line on a plane, the plane is divided into two regions. For example, if you pull two straight lines in parallel, you get three areas, and if you draw vertically one to the other you get 4 areas.
+Write a Python program to create maximum number of regions obtained by drawing n given straight lines.",o,o,,,,o,,,,o,,o
+"There are four different points on a plane, P(xp,yp), Q(xq, yq), R(xr, yr) and S(xs, ys). Write a Python program to test AB and CD are orthogonal or not. ",o,o,,,,o,,,,o,,o
+Write a Python program to sum of all numerical values (positive integers) embedded in a sentence,o,o,,,,,o,,,,,o
+"There are 10 vertical and horizontal squares on a plane. Each square is painted blue and green. Blue represents the sea, and green represents the land. When two green squares are in contact with the top and bottom, or right and left, they are said to be ground. The area created by only one green square is called ""island"". For example, there are five islands in the figure below.
+Write a Python program to read the mass data and find the number of islands.",o,o,o,,,o,o,o,,o,,o
+"When character are consecutive in a string , it is possible to shorten the character string by replacing the character with a certain rule. For example, in the case of the character string YYYYY, if it is expressed as # 5 Y, it is compressed by one character.
+Write a Python program to restore the original string by entering the compressed string with this rule. However, the # character does not appear in the restored character string.",o,o,,,,o,o,,,o,,o
+" A convex polygon is a simple polygon in which no line segment between two points on the boundary ever goes outside the polygon. Equivalently, it is a simple polygon whose interior is a convex set. In a convex polygon, all interior angles are less than or equal to 180 degrees, while in a strictly convex polygon all interior angles are strictly less than 180 degrees.
+Write a Python program that compute the area of the polygon . The vertices have the names vertex 1, vertex 2, vertex 3, ... vertex n according to the order of edge connections ",o,o,o,,,,o,o,,,,o
+"Internet search engine giant, such as Google accepts web pages around the world and classify them, creating a huge database. The search engines also analyze the search keywords entered by the user and create inquiries for database search. In both cases, complicated processing is carried out in order to realize efficient retrieval, but basics are all cutting out words from sentences.
+Write a Python program to cut out words of 3 to 6 characters length from a given sentence not more than 1024 characters.",o,o,o,,,,,,,,,o
+"Arrange integers (0 to 99) as narrow hilltop, as illustrated in Figure 1. Reading such data representing huge, when starting from the top and proceeding according to the next rule to the bottom. Write a Python program that compute the maximum value of the sum of the passing integers.",o,o,o,,,,,o,,,,o
+"Write a Python program to find the number of combinations that satisfy p + q + r + s = n where n is a given number <= 4000 and p, q, r, s in the range of 0 to 1000. ",o,o,o,,,,,o,,o,,o
+Write a Python program which adds up columns and rows of given table as shown in the specified figure.,o,o,o,,,o,,o,,o,,o
+"Given a list of numbers and a number k, write a Python program to check whether the sum of any two numbers from the list is equal to k or not.",o,,o,,,o,o,o,,,,o
+"In mathematics, a subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements. For example, the sequence (A,B,D) is a subsequence of (A,B,C,D,E,F) obtained after removal of elements C, E, and F. The relation of one sequence being the subsequence of another is a preorder.
+The subsequence should not be confused with substring (A,B,C,D) which can be derived from the above string (A,B,C,D,E,F) by deleting substring (E,F). The substring is a refinement of the subsequence.
+The list of all subsequences for the word ""apple"" would be ""a"", ""ap"", ""al"", ""ae"", ""app"", ""apl"", ""ape"", ""ale"", ""appl"", ""appe"", ""aple"", ""apple"", ""p"", ""pp"", ""pl"", ""pe"", ""ppl"", ""ppe"", ""ple"", ""pple"", ""l"", ""le"", ""e"", """".
+Write a Python program to find the longest word in set of words which is a subsequence of a given string. ",o,,o,,,o,o,o,,,,o
+"From Wikipedia, the free encyclopaedia:
+A happy number is defined by the following process:
+Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers.
+Write a Python program to check whether a number is ""happy"" or not. ",o,,,,,o,o,,o,o,o,o
+"From Wikipedia,
+A happy number is defined by the following process:
+Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers.
+Write a Python program to find and print the first 10 happy numbers. ",o,,,,,o,o,o,o,o,o,o
+Write a Python program to count the number of prime numbers less than a given non-negative number.,o,,,,,o,o,o,,,,o
+"In abstract algebra, a group isomorphism is a function between two groups that sets up a one-to-one correspondence between the elements of the groups in a way that respects the given group operations. If there exists an isomorphism between two groups, then the groups are called isomorphic.
+Two strings are isomorphic if the characters in string A can be replaced to get string B
+Given ""foo"", ""bar"", return false.
+Given ""paper"", ""title"", return true.
+Write a Python program to check if two given strings are isomorphic to each other or not.",o,,o,,,o,o,o,o,,,o
+"Write a Python program to find the longest common prefix string amongst a given array of strings. Return false If there is no common prefix.
+For Example, longest common prefix of ""abcdefgh"" and ""abcefgh"" is ""abc"".",o,,o,,,o,o,o,o,,,
+ Write a Python program to reverse only the vowels of a given string. ,o,,o,,,o,o,o,o,,,o
+Write a Python program to check whether a given integer is a palindrome or not.,o,,,,,,o,,o,,,o
+Write a Python program to remove the duplicate elements of a given array of numbers such that each element appear only once and return the new length of the given array,o,,,,,o,o,o,,,,
+Write a Python program to calculate the maximum profit from selling and buying values of stock. An array of numbers represent the stock prices in chronological order.,o,,o,,,,o,o,,,,
+Write a Python program to remove all instances of a given value from a given array of integers and find the length of the new array.,o,,o,,,o,o,,,o,,o
+"Write a Python program to find the starting and ending position of a given value in a given array of integers, sorted in ascending order. ",o,,o,,,o,o,o,,,,
+" The price of a given stock on each day is stored in an array.
+Write a Python program to find the maximum profit in one transaction i.e., buy one and sell one share of the stock from the given price value of the said array. You cannot sell a stock before you buy one.",o,,o,,,o,o,o,,,,o
+Write a Python program to print a given N by M matrix of numbers line by line in forward > backwards > forward >... order.,o,,o,,,o,o,o,,o,,o
+Write a Python program to compute the largest product of three integers from a given list of integers.,o,,o,,,,o,o,,,,
+Write a Python program to find the first missing positive integer that does not exist in a given list.,o,,o,,,o,o,o,,,,
+Write a Python program to randomly generate a list with 10 even numbers between 1 and 100 inclusive. ,o,,,,,o,,o,,,,o
+Write a Python program to calculate the median from a list of numbers.,o,,,,,o,o,,,,,o
+Write a Python program to test whether a given number is symmetrical or not.,o,,,,,,o,,o,,,
+Write a Python program that accepts a list of numbers. Count the negative numbers and compute the sum of the positive numbers of the said list. Return these values through a list,o,,o,,,o,o,o,,,,
+"From Wikipedia:
+An isogram (also known as a ""nonpattern word"") is a logological term for a word or phrase without a repeating letter. It is also used by some people to mean a word or phrase in which each letter appears the same number of times, not necessarily just once. Conveniently, the word itself is an isogram in both senses of the word, making it autological.
+Write a Python program to check whether a given string is an ""isogram"" or not. ",o,,,,,,o,,o,,,
+Write a Python program to count the number of equal numbers from three given integers.,o,,o,,,o,o,,,,,
+Write a Python program to check whether a given employee code is exactly 8 digits or 12 digits. Return True if the employee code is valid and False if it's not.,o,,o,,,,o,,,,,
