@@ -1,8 +1,6 @@
 import openai
 import json
 
-# api key
-openai.api_key = "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"
 
 # 요청 내용 - 백준 문제 | https://www.acmicpc.net/problem/2798
 text_string = """
