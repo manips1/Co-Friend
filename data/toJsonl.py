@@ -12,8 +12,7 @@ for row in li:
 
     # prompt & completion
     comp = row_list[0][0]
-    comp = comp.replace('\'', '\\\'')
-    comp = comp.replace('"', '\\\\"')
+    comp = comp.replace('"', '\\"')
     print(comp)
 
     prom = 'Create a python problem sentence about '
