@@ -11,16 +11,19 @@ for row in li:
     row_list = row_list.to_numpy()
 
     # prompt & completion
+    # completion
     comp = row_list[0][0]
     comp = comp.replace('"', '\\"')
     print(comp)
 
+    # prompt
     prom = 'Create a python problem sentence about '
     for item in row_list[1:]:
         prom += '{} and '.format(item[0])
     prom = prom[:-5]
     prom += '.'
 
+    # result
     result.append('{{"prompt":"{}", "completion":"{}"}}'.format(prom, comp))
 
 
