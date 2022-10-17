@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fafb724-007d-43b7-8eec-857c01ae59d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../api_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/api_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data/api_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/home2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/home2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../data" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My source code\projects\Co-Friend\web\exercises" />
       <recent name="C:\My source code\projects\Co-Friend\web\main" />
     </key>
   </component>
