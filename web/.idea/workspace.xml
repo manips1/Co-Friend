@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fafb724-007d-43b7-8eec-857c01ae59d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../api_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/api_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data/api_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

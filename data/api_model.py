@@ -4,7 +4,7 @@ import json
 """
 요청 내용
 """
-request_str = 'Create a python problem sentence about print.'
+request_str = 'Create a python problem sentence about print and if.'
 
 """
 API request & response
