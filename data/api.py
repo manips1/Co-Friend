@@ -44,7 +44,7 @@ def create_problem_sentence(keywords):
     stop: 문장 출력 종료 조건
     """
     response = openai.Completion.create(
-        model='davinci:ft-cofriend-2022-10-12-05-05-57',
+        model='davinci:ft-cofriend-2022-10-20-10-23-31',
         prompt=request_str,
         temperature=0.7,
         stop=['.']
