@@ -38,3 +38,251 @@
 {"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to solve (x + y) * (x + y)."}
 {"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to compute the future value of a specified principal amount, rate of interest, and a number of years."}
 {"prompt":"Create a python problem sentence about print and math.", "completion":"Write a Python program to compute the distance between the points (x1, y1) and (x2, y2)."}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a Python program to check whether a file exists. "}
+{"prompt":"Create a python problem sentence about print and Struct.", "completion":"Write a Python program to determine if a Python shell is executing in 32bit or 64bit mode on OS. "}
+{"prompt":"Create a python problem sentence about print and os and platform.", "completion":"Write a Python program to get OS name, platform and release information. "}
+{"prompt":"Create a python problem sentence about print and site.", "completion":"Write a Python program to locate Python site-packages. "}
+{"prompt":"Create a python problem sentence about print and call.", "completion":"Write a Python program to call an external command. "}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a python program to get the path and name of the file that is currently executing. "}
+{"prompt":"Create a python problem sentence about print and multiprocessing.", "completion":"Write a Python program to find out the number of CPUs using. "}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to parse a string to Float or Integer. "}
+{"prompt":"Create a python problem sentence about print and list and if and for and os.", "completion":"Write a Python program to list all files in a directory in Python. "}
+{"prompt":"Create a python problem sentence about print and for.", "completion":"Write a Python program to print without newline or space. "}
+{"prompt":"Create a python problem sentence about print and function and cProfile.", "completion":"Write a Python program to determine profiling of Python programs. "}
+{"prompt":"Create a python problem sentence about print and function.", "completion":"Write a Python program to print to stderr. "}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a python program to access environment variables. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to get the current username. "}
+{"prompt":"Create a python problem sentence about print and if and socket.", "completion":"Write a Python to find local IP addresses using Python's stdlib. "}
+{"prompt":"Create a python problem sentence about print and function and struct and fcntl and termios.", "completion":"Write a Python program to get height and width of the console window. "}
+{"prompt":"Create a python problem sentence about print and function and for.", "completion":"Write a Python program to get execution time for a Python method. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to sum of the first n positive integers. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to convert height (in feet and inches) to centimeters. "}
+{"prompt":"Create a python problem sentence about print and input and math.", "completion":"Write a Python program to calculate the hypotenuse of a right angled triangle. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to convert the distance (in feet) to inches, yards, and miles. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to convert all units of time into seconds. "}
+{"prompt":"Create a python problem sentence about print and function and os.", "completion":"Write a Python program to get an absolute file path. "}
+{"prompt":"Create a python problem sentence about print and os and time.", "completion":"Write a Python program to get file creation and modification date/times. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to convert seconds to day, hour, minutes and seconds. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to calculate body mass index. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to convert pressure in kilopascals to pounds per square inch, a millimeter of mercury (mmHg) and atmosphere pressure. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to calculate sum of digits of a number. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to sort three integers without using conditional statements and loops. "}
+{"prompt":"Create a python problem sentence about print and os and glob.", "completion":"Write a Python program to sort files by date. "}
+{"prompt":"Create a python problem sentence about print and if and for and os and time and sys.", "completion":"Write a Python program to get a directory listing, sorted by creation date. "}
+{"prompt":"Create a python problem sentence about print and math.", "completion":"Write a Python program to get the details of math module. "}
+{"prompt":"Create a python problem sentence about print and input.", "completion":"Write a Python program to calculate midpoints of a line. "}
+{"prompt":"Create a python problem sentence about print and input and for.", "completion":"Write a Python program to hash a word. "}
+{"prompt":"Create a python problem sentence about print and sys.", "completion":"Write a Python program to get the copyright information and write Copyright information in Python code. "}
+{"prompt":"Create a python problem sentence about print and sys.", "completion":"Write a Python program to get the command-line arguments (name of the script, the number of arguments, arguments) passed to a script. "}
+{"prompt":"Create a python problem sentence about print and if and sys.", "completion":"Write a Python program to test whether the system is a big-endian platform or little-endian platform. "}
+{"prompt":"Create a python problem sentence about print and sys and textwrap.", "completion":"Write a Python program to find the available built-in modules. "}
+{"prompt":"Create a python problem sentence about print and sys.", "completion":"Write a Python program to get the size of an object in bytes. "}
+{"prompt":"Create a python problem sentence about print and sys.", "completion":"Write a Python program to get the current value of the recursion limit. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to concatenate N strings. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to calculate the sum of all items of a container (tuple, list, set, dictionary). "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to test whether all numbers of a list is greater than a certain number. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to count the number occurrence of a specific character in a string. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to check whether a file path is a file or a directory. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to get the ASCII value of a character. "}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a Python program to get the size of a file. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Given variables x=30 and y=20, write a Python program to print \"30+20=50\". "}
+{"prompt":"Create a python problem sentence about print and if.", "completion":"Write a Python program to perform an action if a condition is true. "}
+{"prompt":"Create a python problem sentence about print and function and for.", "completion":"Write a Python program to create a copy of its own source code. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to swap two variables. "}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to define a string containing special characters in various forms. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to get the Identity, Type, and Value of an object. "}
+{"prompt":"Create a python problem sentence about print and list and string.", "completion":"Write a Python program to convert a byte string to a list of integers. "}
+{"prompt":"Create a python problem sentence about print and input and if.", "completion":"Write a Python program to check whether a string is numeric. "}
+{"prompt":"Create a python problem sentence about print and function and traceback.", "completion":"Write a Python program to print the current call stack. "}
+{"prompt":"Create a python problem sentence about print and for.", "completion":"Write a Python program to list the special variables used within the language. "}
+{"prompt":"Create a python problem sentence about print and time.", "completion":"Write a Python program to get the system time. "}
+{"prompt":"Create a python problem sentence about print and os and time.", "completion":"Write a Python program to clear the screen or terminal. "}
+{"prompt":"Create a python problem sentence about print and platform and socket.", "completion":"Write a Python program to get the name of the host on which the routine is running. "}
+{"prompt":"Create a python problem sentence about print and httpConnection.", "completion":"Write a Python program to access and print a URL's content to the console. "}
+{"prompt":"Create a python problem sentence about print and subprocess.", "completion":"Write a Python program to get system command output. "}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a Python program to extract the filename from a given path. "}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a Python program to get the effective group id, effective user id, real group id, a list of supplemental group ids associated with the current process. "}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a Python program to get the users environment. "}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a Python program to divide a path on the extension separator. "}
+{"prompt":"Create a python problem sentence about print and os and time.", "completion":"Write a Python program to retrieve file properties. "}
+{"prompt":"Create a python problem sentence about print and os.", "completion":"Write a Python program to find path refers to a file or directory when you encounter a path name. "}
+{"prompt":"Create a python problem sentence about print and input and if.", "completion":"Write a Python program to check if a number is positive, negative or zero. "}
+{"prompt":"Create a python problem sentence about print and list.", "completion":"Write a Python program to get numbers divisible by fifteen from a list using an anonymous function. "}
+{"prompt":"Create a python problem sentence about print and glob.", "completion":"Write a Python program to make file lists from current directory using a wildcard. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to remove the first item from a specified list. "}
+{"prompt":"Create a python problem sentence about print and if and while.", "completion":"Write a Python program to input a number, if it is not a number generates an error message. "}
+{"prompt":"Create a python problem sentence about print and list.", "completion":"Write a Python program to filter the positive numbers from a list. "}
+{"prompt":"Create a python problem sentence about print and reduce.", "completion":"Write a Python program to compute the product of a list of integers (without using for loop). "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to print Unicode characters. "}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to prove that two string variables of same value point same memory location. "}
+{"prompt":"Create a python problem sentence about print and for.", "completion":"Write a Python program to create a bytearray from a list. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to round a floating-point number to specified number decimal places. "}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to format a specified string limiting the length of a string. "}
+{"prompt":"Create a python problem sentence about print and if.", "completion":"Write a Python program to determine whether variable is defined or not. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to empty a variable without destroying it. "}
+{"prompt":"Create a python problem sentence about print and sys.", "completion":"Write a Python program to determine the largest and smallest integers, longs, floats. "}
+{"prompt":"Create a python problem sentence about print and if.", "completion":"Write a Python program to check whether multiple variables have the same value. "}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to sum of all counts in a collections."}
+{"prompt":"Create a python problem sentence about print and math and inspect.", "completion":"Write a Python program to get the actual module object for a given object. "}
+{"prompt":"Create a python problem sentence about print and if.", "completion":"Write a Python program to check whether an integer fits in 64 bits. "}
+{"prompt":"Create a python problem sentence about print and if and for and string.", "completion":"Write a Python program to check whether lowercase letters exist in a string"}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to add leading zeroes to a string."}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to use double quotes to display strings"}
+{"prompt":"Create a python problem sentence about print and list.", "completion":"Write a Python program to split a variable length string into variables."}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to list home directory without absolute path."}
+{"prompt":"Create a python problem sentence about print and function and for.", "completion":"Write a Python program to calculate the time runs (difference between start and current time) of a program."}
+{"prompt":"Create a python problem sentence about print and input and for.", "completion":"Write a Python program to input two integers in a single line."}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to print a variable without spaces between values."}
+{"prompt":"Create a python problem sentence about print and if and for.", "completion":"Write a Python program to find files and skip directories of a given directory."}
+{"prompt":"Create a python problem sentence about print and list.", "completion":"Write a Python program to extract single key-value pair of a dictionary in variables"}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to convert true to 1 and false to 0."}
+{"prompt":"Create a python problem sentence about print and if and function.", "completion":"Write a Python program to valid a IP address"}
+{"prompt":"Create a python problem sentence about print and math.", "completion":"Write a Python program to convert an integer to binary keep leading zeros."}
+{"prompt":"Create a python problem sentence about print and math.", "completion":"Write a python program to convert decimal to hexadecimal"}
+{"prompt":"Create a python problem sentence about print and function and for and string and while.", "completion":"Write a Python program to check if every consecutive sequence of zeroes is followed by a consecutive sequence of ones of same length in a given string. Return True/False"}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to determine if the python shell is executing in 32bit or 64bit mode on operating system"}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to check whether variable is integer or string."}
+{"prompt":"Create a python problem sentence about print and list and tuple and if and function and set.", "completion":"Write a Python program to test if a variable is a list or tuple or a set."}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to find the location of Python module sources.?"}
+{"prompt":"Create a python problem sentence about print and if and math.", "completion":"Write a Python function to check whether a number is divisible by another number. Accept two integers values form the user."}
+{"prompt":"Create a python problem sentence about print and if and function and for.", "completion":"Write a Python function to find the maximum and minimum numbers from a sequence of numbers"}
+{"prompt":"Create a python problem sentence about print and if and function and while and math.", "completion":"Write a Python function that takes a positive integer and returns the sum of the cube of all the positive integers smaller than the specified number"}
+{"prompt":"Create a python problem sentence about print and if and function and for and while and math.", "completion":"Write a Python function to check whether a distinct pair of numbers whose product is odd present in a sequence of integer values.?"}
+{"prompt":"Create a python problem sentence about print and if and function.", "completion":"Write a Python function that takes a sequence of numbers and determines whether all the numbers are different from each other."}
+{"prompt":"Create a python problem sentence about print and list.", "completion":"Write a Python program to create all possible strings by using 'a', 'e', 'i', 'o', 'u'. Use the characters exactly once"}
+{"prompt":"Create a python problem sentence about print and list and tuple and while and math.", "completion":"Write a Python program to remove and print every third number from a list of numbers until the list becomes empty."}
+{"prompt":"Create a python problem sentence about print and list and tuple and if and function and for and string and while and math.", "completion":"Write a Python program to find unique triplets whose three elements gives the sum of zero from an array of n integers."}
+{"prompt":"Create a python problem sentence about print and list and tuple.", "completion":"Write a Python program to create the combinations of 3 digit combo.?"}
+{"prompt":"Create a python problem sentence about print and list and for and string.", "completion":"Write a Python program to print a long text, convert the string to a list and print all the words and their frequencies"}
+{"prompt":"Create a python problem sentence about print and for.", "completion":"Write a Python program to count the number of each character of a given text of a text file"}
+{"prompt":"Create a python problem sentence about print and for.", "completion":"Write a Python program to get the top stories from Google news."}
+{"prompt":"Create a python problem sentence about print and for.", "completion":"Write a Python program to get a list of locally installed Python modules."}
+{"prompt":"Create a python problem sentence about print and list and if and for.", "completion":"Write a Python program to display some information about the OS where the script is running.?"}
+{"prompt":"Create a python problem sentence about print and list and tuple and if and function and for.", "completion":"Write a Python program to check the sum of three elements (each from an array) from three arrays is equal to a target value. Print all those three-element combinations."}
+{"prompt":"Create a python problem sentence about print and list and function and for.", "completion":"Write a Python program to create all possible permutations from a given collection of distinct numbers."}
+{"prompt":"Create a python problem sentence about print and list and if and function and for and string.", "completion":"Write a Python program to get all possible two digit letter combinations from a digit (1 to 9) string."}
+{"prompt":"Create a python problem sentence about print and function and while and math.", "completion":"Write a Python program to add two positive integers without using the '+' operator"}
+{"prompt":"Create a python problem sentence about print and function and string and math.", "completion":"Write a Python program to check the priority of the four operators (+, -, *, /).?"}
+{"prompt":"Create a python problem sentence about print and if and function and string and math.", "completion":"Write a Python program to get the third side of right angled triangle from two given sides."}
+{"prompt":"Create a python problem sentence about print and list and if and function and for and string and math.", "completion":"Write a Python program to get all strobogrammatic numbers that are of length n"}
+{"prompt":"Create a python problem sentence about print and input and if and math.", "completion":"Write a Python program to find the median among three given numbers"}
+{"prompt":"Create a python problem sentence about print and if and function and while and math.", "completion":"Write a Python program to find the value of n where n degrees of number 2 are written sequentially in a line without spaces."}
+{"prompt":"Create a python problem sentence about print and function and while and math.", "completion":"Write a Python program to find the number of zeros at the end of a factorial of a given positive number."}
+{"prompt":"Create a python problem sentence about print and list and if and function and for and math.", "completion":"Write a Python program to find the number of notes (Sample of notes: 10, 20, 50, 100, 200 and 500 ) against a given amount."}
+{"prompt":"Create a python problem sentence about print and if and function and math.", "completion":"Write a Python program to create a sequence where the first four members of the sequence are equal to one, and each successive term of the sequence is equal to the sum of the four previous ones. Find the Nth member of the sequence.?"}
+{"prompt":"Create a python problem sentence about print and list and function and for and string and while.", "completion":"Write a Python program that accept a positive number and subtract from this number the sum of its digits and so on. Continues this operation until the number is positive"}
+{"prompt":"Create a python problem sentence about print and list and if and function and math.", "completion":"Write a Python program to find the number of divisors of a given integer is even or odd."}
+{"prompt":"Create a python problem sentence about print and list and function and for and set.", "completion":"Write a Python program to find the digits which are absent in a given mobile number"}
+{"prompt":"Create a python problem sentence about print and list and function and while and math.", "completion":"Write a Python program to compute the summation of the absolute difference of all distinct pairs in a given array (non-decreasing order).?"}
+{"prompt":"Create a python problem sentence about print and list and if and function and string and math.", "completion":"Write a Python program to find the type of the progression (arithmetic progression/geometric progression) and the next successive member of a given three successive members of a sequence.?"}
+{"prompt":"Create a python problem sentence about print and input and if and for and math.", "completion":"Write a Python program to print the length of the series and the series from the given 3rd term, 3rd last term and the sum of a series."}
+{"prompt":"Create a python problem sentence about print and if and function and while and math.", "completion":"Write a Python program to find common divisors between two numbers in a given pair.?"}
+{"prompt":"Create a python problem sentence about print and list and if and function and string and while and math.", "completion":"Write a Python program to reverse the digits of a given number and add it to the original, If the sum is not a palindrome repeat this procedure."}
+{"prompt":"Create a python problem sentence about print and if and function and for and string and math.", "completion":"Write a Python program to count the number of carry operations for each of a set of addition problems."}
+{"prompt":"Create a python problem sentence about print and list and for and math.", "completion":"Write a python program to find heights of the top three building in descending order from eight given buildings."}
+{"prompt":"Create a python problem sentence about print and input and string and math.", "completion":"Write a Python program to compute the digit number of sum of two given integers."}
+{"prompt":"Create a python problem sentence about print and list and if and math.", "completion":"Write a Python program to check whether three given lengths (integers) of three sides form a right triangle. Print \"Yes\" if the given sides form a right triangle otherwise print \"No\"."}
+{"prompt":"Create a python problem sentence about print and input and if and math.", "completion":"Write a Python program which solve the equation:"}
+{"prompt":"Create a python problem sentence about print and input and if and function and string and math.", "completion":"Write a Python program to compute the amount of the debt in n months. The borrowing amount is $100,000 and the loan adds 5% interest of the debt and rounds it to the nearest 1,000 above month by month.?"}
+{"prompt":"Create a python problem sentence about print and input and for and math.", "completion":"Write a Python program which reads an integer n and find the number of combinations of a,b,c and d (0 <= a,b,c,d <= 9) where (a + b + c + d) will be equal to n."}
+{"prompt":"Create a python problem sentence about print and input and list and if and for and math.", "completion":"Write a Python program to print the number of prime numbers which are less than or equal to a given integer"}
+{"prompt":"Create a python problem sentence about print and input and math.", "completion":"Write a program to compute the radius and the central coordinate (x, y) of a circle which is constructed by three given points on the plane surface."}
+{"prompt":"Create a python problem sentence about print and input and if and math.", "completion":"Write a Python program to check whether a point (x,y) is in a triangle or not. There is a triangle formed by three points."}
+{"prompt":"Create a python problem sentence about print and input and if and math.", "completion":"Write a Python program to compute and print sum of two given integers (more than or equal to zero). If given integers or the sum have more than 80 digits, print \"overflow\""}
+{"prompt":"Create a python problem sentence about print and input and list and math.", "completion":"Write a Python program that accepts six numbers as input and sorts them in descending order. "}
+{"prompt":"Create a python problem sentence about print and input and if and math.", "completion":"Write a Python program to test whether two lines PQ and RS are parallel. The four points are P(x1, y1), Q(x2, y2), R(x3, y3), S(x4, y4)."}
+{"prompt":"Create a python problem sentence about print and input and list and if and for and while and math.", "completion":"Write a Python program to find the maximum sum of a contiguous subsequence from a given sequence of numbers a1, a2, a3, ... an. A subsequence of one element is also a continuous subsequence"}
+{"prompt":"Create a python problem sentence about print and input and if and for and math.", "completion":"There are two circles C1 with radius r1, central coordinate (x1, y1) and C2 with radius r2 and central coordinate (x2, y2)."}
+{"prompt":"Create a python problem sentence about print and input and list and date.", "completion":"Write a Python program to that reads a date (from 2016/1/1 to 2016/12/31) and prints the day of the date. Jan. 1, 2016, is Friday. Note that 2016 is a leap year."}
+{"prompt":"Create a python problem sentence about print and input and list and if and for and string and math.", "completion":"Write a Python program which reads a text (only alphabetical characters and spaces.) and prints two words. The first one is the word which is arise most frequently in the text. The second one is the word which has the maximum number of letters.?"}
+{"prompt":"Create a python problem sentence about print and input and list and if and for and while and math.", "completion":"Write a Python program that reads n digits (given) chosen from 0 to 9 and prints the number of combinations where the sum of the digits equals to another given number (s). Do not use the same digits in a combination."}
+{"prompt":"Create a python problem sentence about print and input and if and math.", "completion":"Write a Python program which reads the two adjoined sides and the diagonal of a parallelogram and check whether the parallelogram is a rectangle or a rhombus."}
+{"prompt":"Create a python problem sentence about print and input and list and if and for and math.", "completion":"Write a Python program to replace a string \"Python\" with \"Java\" and \"Java\" with \"Python\" in a given string."}
+{"prompt":"Create a python problem sentence about print and input and list and math.", "completion":"Write a Python program to find the difference between the largest integer and the smallest integer which are created by 8 numbers from 0 to 9. The number that can be rearranged shall start with 0 as in 00135668."}
+{"prompt":"Create a python problem sentence about print and input and list and if and for and while and math.", "completion":"Write a Python program to compute the sum of first n given prime numbers. "}
+{"prompt":"Create a python problem sentence about print and input and list and if and for and math.", "completion":"Write a Python program that accept an even number (>=4, Goldbach number) from the user and create a combinations that express the given number as a sum of two prime numbers. Print the number of combinations. "}
+{"prompt":"Create a python problem sentence about print and input and if and while and math.", "completion":"There are four different points on a plane, P(xp,yp), Q(xq, yq), R(xr, yr) and S(xs, ys). Write a Python program to test AB and CD are orthogonal or not. "}
+{"prompt":"Create a python problem sentence about print and input and function and math.", "completion":"Write a Python program to sum of all numerical values (positive integers) embedded in a sentence"}
+{"prompt":"Create a python problem sentence about print and input and list and for and math.", "completion":"Arrange integers (0 to 99) as narrow hilltop, as illustrated in Figure 1. Reading such data representing huge, when starting from the top and proceeding according to the next rule to the bottom. Write a Python program that compute the maximum value of the sum of the passing integers."}
+{"prompt":"Create a python problem sentence about print and input and list and for and while and math.", "completion":"Write a Python program to find the number of combinations that satisfy p + q + r + s = n where n is a given number <= 4000 and p, q, r, s in the range of 0 to 1000. "}
+{"prompt":"Create a python problem sentence about print and input and list and if and for and while and math.", "completion":"Write a Python program which adds up columns and rows of given table as shown in the specified figure."}
+{"prompt":"Create a python problem sentence about print and list and if and function and for and math.", "completion":"Given a list of numbers and a number k, write a Python program to check whether the sum of any two numbers from the list is equal to k or not."}
+{"prompt":"Create a python problem sentence about print and if and function and for and math.", "completion":"Write a Python program to count the number of prime numbers less than a given non-negative number."}
+{"prompt":"Create a python problem sentence about print and list and if and function and for and string and math.", "completion":"Write a Python program to reverse only the vowels of a given string.?"}
+{"prompt":"Create a python problem sentence about print and function and string and math.", "completion":"Write a Python program to check whether a given integer is a palindrome or not."}
+{"prompt":"Create a python problem sentence about print and if and function and for.", "completion":"Write a Python program to remove the duplicate elements of a given array of numbers such that each element appear only once and return the new length of the given array"}
+{"prompt":"Create a python problem sentence about print and list and function and for.", "completion":"Write a Python program to calculate the maximum profit from selling and buying values of stock. An array of numbers represent the stock prices in chronological order."}
+{"prompt":"Create a python problem sentence about print and list and if and function and while and math.", "completion":"Write a Python program to remove all instances of a given value from a given array of integers and find the length of the new array."}
+{"prompt":"Create a python problem sentence about print and list and if and function and for.", "completion":"Write a Python program to find the starting and ending position of a given value in a given array of integers, sorted in ascending order. "}
+{"prompt":"Create a python problem sentence about print and list and if and function and for and while and math.", "completion":"Write a Python program to print a given N by M matrix of numbers line by line in forward > backwards > forward >... order."}
+{"prompt":"Create a python problem sentence about print and list and function and for.", "completion":"Write a Python program to compute the largest product of three integers from a given list of integers."}
+{"prompt":"Create a python problem sentence about print and list and if and function and for.", "completion":"Write a Python program to find the first missing positive integer that does not exist in a given list."}
+{"prompt":"Create a python problem sentence about print and if and for and math.", "completion":"Write a Python program to randomly generate a list with 10 even numbers between 1 and 100 inclusive. "}
+{"prompt":"Create a python problem sentence about print and if and function and math.", "completion":"Write a Python program to calculate the median from a list of numbers."}
+{"prompt":"Create a python problem sentence about print and function and string.", "completion":"Write a Python program to test whether a given number is symmetrical or not."}
+{"prompt":"Create a python problem sentence about print and list and if and function and for.", "completion":"Write a Python program that accepts a list of numbers. Count the negative numbers and compute the sum of the positive numbers of the said list. Return these values through a list"}
+{"prompt":"Create a python problem sentence about print and list and if and function.", "completion":"Write a Python program to count the number of equal numbers from three given integers."}
+{"prompt":"Create a python problem sentence about print and list and function.", "completion":"Write a Python program to check whether a given employee code is exactly 8 digits or 12 digits. Return True if the employee code is valid and False if it's not."}
+{"prompt":"Create a python problem sentence about print and input and if and string.", "completion":"Write+A125+A88:H140+A88:I141+A125+A88:H140+A88:I142+A125+A88:H140+A88:W142+A88:U142+A88:T142+A88:N142+A88:J142+A88:L142+A88:M142+A88:N142+A88:M143"}
+{"prompt":"Create a python problem sentence about print and if and function and for and while and math.", "completion":"Write a Python program to compute the sum of the three lowest positive numbers from a given list of numbers."}
+{"prompt":"Create a python problem sentence about print and function and string.", "completion":"Write a Python program to replace all but the last five characters of a given string with \"*\" and returns the new string."}
+{"prompt":"Create a python problem sentence about print and input and function.", "completion":"Write a Python program to count the number of arguments in a given function."}
+{"prompt":"Create a python problem sentence about print and input and list and function and math.", "completion":"Write a Python program to compute cumulative sum of numbers of a given list."}
+{"prompt":"Create a python problem sentence about print and if and function and string.", "completion":"Write a Python program to find the middle character(s) of a given string. If the length of the string is even return the two middle characters. If the length of the string is odd, return the middle character."}
+{"prompt":"Create a python problem sentence about print and list and function and math.", "completion":"Write a Python program to find the largest product of the pair of adjacent elements from a given list of integers"}
+{"prompt":"Create a python problem sentence about print and list and if and function.", "completion":"Write a Python program to check whether every even index contains an even number and every odd index contains odd number of a given list"}
+{"prompt":"Create a python problem sentence about print and input and if and function and math.", "completion":"Write a Python program to check whether a given number is a narcissistic number or not. Go to the editor"}
+{"prompt":"Create a python problem sentence about print and list and function and string.", "completion":"Write a Python program to find the highest and lowest number from a given string of space separated integers"}
+{"prompt":"Create a python problem sentence about print and input and list and if and function.", "completion":"Write a Python program to check whether a sequence of numbers has an increasing trend or not"}
+{"prompt":"Create a python problem sentence about print and input and if and function and string.", "completion":"Write a Python program to find the position of the second occurrence of a given string in another given string. If there is no such string return -1"}
+{"prompt":"Create a python problem sentence about print and input and function and math.", "completion":"Write a Python program to compute the sum of all items of a given array of integers where each integer is multiplied by its index. Return 0 if there is no number."}
+{"prompt":"Create a python problem sentence about print and input and string.", "completion":"Write a Python program to find the name of the oldest student from a given dictionary containing the names and ages of a group of students."}
+{"prompt":"Create a python problem sentence about print and input and function and string.", "completion":"Write a Python program to create a new string with no duplicate consecutive letters from a given string."}
+{"prompt":"Create a python problem sentence about print and input and if and function and math.", "completion":"Write a Python program to check whether two given lines are parallel or not."}
+{"prompt":"Create a python problem sentence about print and if and function and math.", "completion":"Write a Python program to find a number in a given matrix, which is maximum in its column and minimum in its row."}
+{"prompt":"Create a python problem sentence about print and if and function and math.", "completion":"Write a Python program to check whether a given sequence is linear, quadratic or cubic."}
+{"prompt":"Create a python problem sentence about print and if and function.", "completion":"Write a Python program to test whether a given integer is Pandigital number or not.?"}
+{"prompt":"Create a python problem sentence about print and if and function.", "completion":"Write a Python program to check whether a given number is Oddish or Evenish."}
+{"prompt":"Create a python problem sentence about print and input and if and function.", "completion":"Write a Python program that takes three integers and check whether the sum of the last digit of first number and the last digit of second number equal to the last digit of third number."}
+{"prompt":"Create a python problem sentence about print and input and list and function.", "completion":"Write a Python program find the indices of all occurrences of a given item in a given list"}
+{"prompt":"Create a python problem sentence about print and input and list and function.", "completion":"Write a Python program to remove the duplicate numbers from a given list of numbers.?"}
+{"prompt":"Create a python problem sentence about print and input and function and math.", "completion":"Write a Python program to check whether two given circles (given center (x,y) and radius) are intersecting. Return true for intersecting otherwise false."}
+{"prompt":"Create a python problem sentence about print and input and math.", "completion":"Write a Python program to compute the digit distance between two integers."}
+{"prompt":"Create a python problem sentence about print and input and string.", "completion":"Write a Python program to reverse all the words which have even length."}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to print letters from the English alphabet from a-z and A-Z.?"}
+{"prompt":"Create a python problem sentence about print and list.", "completion":"Write a Python program to generate and prints a list of numbers from 1 to 10."}
+{"prompt":"Create a python problem sentence about print and if and for and math.", "completion":"Write a Python program to identify nonprime numbers between 1 to 100 (integers). Print the nonprime numbers.?"}
+{"prompt":"Create a python problem sentence about print and input and if and string.", "completion":"Write a Python program to make a request to a web page, and test the status code, also display the html code of the specified web page."}
+{"prompt":"Create a python problem sentence about print and input and if and function.", "completion":"n multiprocessing, processes are spawned by creating a Process object. Write a Python program to show the individual process IDs (parent process, process id etc.) involved."}
+{"prompt":"Create a python problem sentence about print and input and function and while and math.", "completion":"Write a Python program to check if two given numbers are Co Prime or not. Return True if two numbers are Co Prime otherwise return false."}
+{"prompt":"Create a python problem sentence about print and input and if and function and while and math.", "completion":"Write a Python program to calculate Euclid's totient function of a given integer. Use a primitive method to calculate Euclid's totient function."}
+{"prompt":"Create a python problem sentence about print and input and string.", "completion":"Write a Python program to create a coded string from a given string, using specified formula"}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to check if a given string contains only lowercase or uppercase characters."}
+{"prompt":"Create a python problem sentence about print and if and string.", "completion":"Write a Python program to remove the first and last elements from a given string.?"}
+{"prompt":"Create a python problem sentence about print and for and string.", "completion":"Write a Python program to check if a given string contains two similar consecutive letters."}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to reverse a given string in lower case."}
+{"prompt":"Create a python problem sentence about print and for and string.", "completion":"Write a Python program to convert the letters of a given string (same case-upper/lower) into alphabetical order."}
+{"prompt":"Create a python problem sentence about print and list and function and for.", "completion":"Write a Python program to check whether the average value of the elements of a given array of numbers is a whole number or not."}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to remove all vowels from a given string."}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to get the index number of all lower case letters in a given string"}
+{"prompt":"Create a python problem sentence about print and Date and string.", "completion":"Write a Python program to check whether a given month and year contains a Monday 13th.?"}
+{"prompt":"Create a python problem sentence about print and string and math.", "completion":"Write a Python program to count number of zeros and ones in the binary representation of a given integer."}
+{"prompt":"Create a python problem sentence about print and for and math.", "completion":"Write a Python program to find all the factors of a given natural number."}
+{"prompt":"Create a python problem sentence about print and list and for and math.", "completion":"Write a Python program to compute the sum of the negative and positive numbers of an array of integers and display the largest sum."}
+{"prompt":"Create a python problem sentence about print and for and string.", "completion":"Write a Python program to alternate the case of each letter in a given string and the first letter of the said string must be uppercase."}
+{"prompt":"Create a python problem sentence about print and function and while and math.", "completion":"Write a Python program to get the Least Common Multiple (LCM) of more than two numbers. Take the numbers from a given list of positive integers."}
+{"prompt":"Create a python problem sentence about print and list and if and for and string.", "completion":"Write a Python program to reverse all the words which have odd length"}
+{"prompt":"Create a python problem sentence about print and for and string and while.", "completion":"Write a Python program to find the longest common ending between two given strings."}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to reverse the binary representation of an given integer and convert the reversed binary number into an integer."}
+{"prompt":"Create a python problem sentence about print and if and string and while.", "completion":"Write a Python program to find the closest palindrome number of a given integer. If there are two palindrome numbers in absolute distance return the smaller number."}
+{"prompt":"Create a python problem sentence about print and list and for.", "completion":"Write a Python program to convert all items in a given list to float values."}
+{"prompt":"Create a python problem sentence about print and list and string.", "completion":"Write a Python program to get the domain name using PTR DNS records from a given IP address."}
+{"prompt":"Create a python problem sentence about print and function and for and string and while.", "completion":"Write a Python program to check if every consecutive sequence of zeroes is followed by a consecutive sequence of ones of same length in a given string. Return True/False."}
+{"prompt":"Create a python problem sentence about print.", "completion":"Write a Python program to print Emojis using unicode characters or CLDR (Common Locale Data Repository ) short names."}
+{"prompt":"Create a python problem sentence about print and string.", "completion":"Write a Python program to convert integer to string."}
+{"prompt":"Create a python problem sentence about print and while and math.", "completion":"Write a Python program to find the largest and smallest digit of a given number."}
+{"prompt":"Create a python problem sentence about print and input and if and function.", "completion":"A Python list contains two positive integers. Write a Python program to check whether the cube root of the first number is equal to the square root of the second number"}
+{"prompt":"Create a python problem sentence about print and if and function and math.", "completion":"A Python list contains three positive integers. Write a Python program to check whether the sum of the digits in each number is equal or not. Return true otherwise false.?"}
+{"prompt":"Create a python problem sentence about print and if and function and for and math.", "completion":"A Python list contains some positive integers. Write a Python program to count the numbers that are greater than the previous number on the list"}
+{"prompt":"Create a python problem sentence about print and for.", "completion":"Write a Python program that takes a positive integer and create an N x N square filled with the integer N. Display the N x N square"}
+{"prompt":"Create a python problem sentence about print and if and while.", "completion":"Write a Python program that takes a positive integer and calculate the cube root of the number until the number is less than three. Count the number of steps to complete the said process"}
