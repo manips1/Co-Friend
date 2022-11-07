@@ -1,5 +1,6 @@
 import openai
 import json
+import requests
 
 
 def create_problem(keywords):
@@ -87,6 +88,36 @@ def generate_code(problem_sentence):
     return result_text
 
 
+def compile_code(code, language='python'):
+    """
+    입력된 String code data 컴파일
+
+    :param code: code string
+    :param language: language string
+    :return: result
+    """
+    if language == 'python':
+        lang = 'py'
+    else:
+        return 'Unknown language'
+
+    url = 'https://codex-api.herokuapp.com/'
+
+    data = {
+      'code': code,
+      'language': lang,
+      'input': ''
+    }
+
+    headers = {
+        "Content-Type": "application/x-www-form-urlencoded",
+      }
+
+    r = requests.post(url=url, headers=headers, data=data)
+    j = r.json()
+    return j['output']
+
+
 """
 함수 테스트
 """
@@ -100,21 +131,6 @@ print()
 """
 코드 컴파일
 """
-import requests
-
-URL = 'https://codex-api.herokuapp.com/'
-
-data = {
-  'code': problem_dict['code'],
-  'language': 'py',
-  'input': ''
-}
-
-headers = {
-    "Content-Type": "application/x-www-form-urlencoded",
-  }
-
-r = requests.post(url=URL, headers=headers, data=data)
-j = r.json()
-print(j)
-print(j['output'])
+result = compile_code(problem_dict['code'])
+print('---------------------result---------------------')
+print(result)
