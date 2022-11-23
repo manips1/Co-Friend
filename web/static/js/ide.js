@@ -314,6 +314,8 @@ function run() {
 
         });
     }
+    // 임시
+    $runBtn.removeClass("loading");
 
     var fetchAdditionalFiles = false;
     if (parseInt(languageId) === 82) {
