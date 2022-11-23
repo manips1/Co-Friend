@@ -248,7 +248,7 @@ function run() {
     var x = layout.root.getItemsById("stdout")[0];
     x.parent.header.parent.setActiveContentItem(x);
 
-    var sourceValue = encode(sourceEditor.getValue());
+    var sourceValue = sourceEditor.getValue();
     var stdinValue = encode(stdinEditor.getValue());
     var languageId = resolveLanguageId($selectLanguage.val());
     var compilerOptions = $compilerOptions.val();
@@ -258,19 +258,42 @@ function run() {
         sourceValue = sourceEditor.getValue();
     }
 
+    //csrf token
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie != '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i].trim();
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    var csrftoken = getCookie('csrftoken');
+
     var data = {
         source_code: sourceValue,
         language_id: languageId,
         stdin: stdinValue,
         compiler_options: compilerOptions,
         command_line_arguments: commandLineArguments,
-        redirect_stderr_to_stdout: true
+        redirect_stderr_to_stdout: true,
+        csrfmiddlewaretoken: csrftoken
     };
 
     var sendRequest = function(data) {
+        $.ajaxSetup({
+            headers: { "X-CSRFToken": csrftoken }
+          });
         timeStart = performance.now();
         $.ajax({
-            url: apiUrl + `/submissions?base64_encoded=true&wait=${wait}`,
+            url: "",
             type: "POST",
             async: true,
             contentType: "application/json",
@@ -278,6 +301,7 @@ function run() {
             xhrFields: {
                 withCredentials: apiUrl.indexOf("/secure") != -1 ? true : false
             },
+
             success: function (data, textStatus, jqXHR) {
                 console.log(`Your submission token is: ${data.token}`);
                 if (wait == true) {
@@ -287,6 +311,7 @@ function run() {
                 }
             },
             error: handleRunError
+
         });
     }
 
@@ -315,6 +340,7 @@ function run() {
     if (!fetchAdditionalFiles) {
         sendRequest(data);
     }
+
 }
 
 function fetchSubmission(submission_token) {
