@@ -25,7 +25,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
 
-    <script type="text/javascript" src="third_party/download.js"></script>
+    <script type="text/javascript" src="{% static 'js/download.js' %}"></script>
 
     <script type="text/javascript" src="{% static 'js/ide.js' %}"></script>
 
@@ -38,6 +38,12 @@
 {% block content %}
     <div id="site-navigation" class="ui small inverted menu">
         <div class="left menu">
+            <div class="ui dropdown item site-links on-hover">
+                File <i class="dropdown icon"></i>
+                <div class="menu">
+                    <div class="item" onclick="downloadSource()"><i class="download icon"></i> Download</div>
+                </div>
+            </div>
             <div class="item borderless">
                 <select id="select-language" class="ui dropdown">
                     <option value="71" mode="python">Python (3.8.1)</option>
