@@ -38,20 +38,9 @@
 {% block content %}
     <div id="site-navigation" class="ui small inverted menu">
         <div class="left menu">
-            <div class="ui dropdown item site-links on-hover">
-                File <i class="dropdown icon"></i>
-                <div class="menu">
-                    <a class="item" target="_blank" href="/"><i class="file code icon"></i> New File</a>
-                    <div class="item" onclick="downloadSource()"><i class="download icon"></i> Download</div>
-                    <div id="insert-template-btn" class="item"><i class="file code outline icon"></i> Insert template
-                        for current language</div>
-                </div>
-            </div>
-            <div class="link item" onclick="$('#site-settings').modal('show')"><i class="cog icon"></i> Settings</div>
             <div class="item borderless">
                 <select id="select-language" class="ui dropdown">
                     <option value="71" mode="python">Python (3.8.1)</option>
-                    <option value="1010" mode="python">Python for ML (3.7.3)</option>
                 </select>
             </div>
             <div class="item fitted borderless wide screen only">

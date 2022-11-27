@@ -114,5 +114,9 @@ def compile_code(code, language='python'):
       }
 
     r = requests.post(url=url, headers=headers, data=data)
-    j = r.json()
+    try:
+        j = r.json()
+    except:
+        return 'Compile server error'
+        
     return j['output']
