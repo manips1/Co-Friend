@@ -1,6 +1,7 @@
 from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
+from django.urls import reverse
 from django.views.decorators.csrf import ensure_csrf_cookie
 from exercises.api import api
 import json
@@ -24,14 +25,14 @@ def home(request):
 
         # encode the problem
         problem_b64 = base64.b64encode(problem.encode('ascii')).decode('ascii')
-        return redirect('exercises:editor', problem_id=problem_b64)
+        return redirect(reverse('exercises:editor') + '?p=' + problem_b64)
 
     return render(request, 'exercises/home.html')
 
 
 #editor
 @ensure_csrf_cookie
-def editor(request, problem_id):
+def editor(request):
     """exercises editor page view
 
     Args:
@@ -58,12 +59,16 @@ def editor(request, problem_id):
 
         return JsonResponse(response_data)
 
-    # decode problem
-    problem = base64.b64decode(problem_id).decode('ascii')
+    # get
+    if request.method == 'GET':
+        problem = request.GET.get('p', None)
 
-    # generate example code and result
-    ex_code = api.generate_code(problem)
-    ex_result = api.compile_code(ex_code)
+        # decode problem
+        problem = base64.b64decode(problem).decode('ascii')
 
-    context = {'problem': problem,'ex_result':ex_result}
-    return render(request, 'exercises/editor.html', context)
+        # generate example code and result
+        ex_code = api.generate_code(problem)
+        ex_result = api.compile_code(ex_code)
+
+        context = {'problem': problem,'ex_result':ex_result}
+        return render(request, 'exercises/editor.html', context)

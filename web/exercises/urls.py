@@ -5,5 +5,5 @@ app_name = 'exercises'
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('editor/<str:problem_id>/', views.editor, name='editor'),
+    path('editor/', views.editor, name='editor'),
 ]
