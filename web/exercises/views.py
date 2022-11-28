@@ -9,6 +9,12 @@ import base64
 # Create your views here.
 # home
 def home(request):
+    """exercises home page view
+
+    Args:
+        request (request): django request
+
+    """
     # post
     if request.method == 'POST':
         keyword_list = request.POST.getlist('keyword_list')
@@ -26,6 +32,13 @@ def home(request):
 #editor
 @ensure_csrf_cookie
 def editor(request, problem_id):
+    """exercises editor page view
+
+    Args:
+        request (request): django request
+        problem_id (string): base64 encoded problem
+
+    """
     # post
     if request.method == 'POST':
         # data from user
