@@ -27,7 +27,9 @@ def home(request):
         problem_b64 = base64.b64encode(problem.encode('ascii')).decode('ascii')
         return redirect(reverse('exercises:editor') + '?p=' + problem_b64)
 
-    return render(request, 'exercises/home.html')
+    keywords = ['print', 'input', 'for', 'if', 'math']
+    context = {'keywords': keywords}
+    return render(request, 'exercises/home.html', context)
 
 
 #editor
