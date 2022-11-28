@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block style %}
+{% endblock %}
+
+{% block content %}
+<p>exercise home page</p>
+<p>print, input, for, if</p>
+<form action="{% url 'exercises:home' %}" method="post">
+    {% csrf_token %}
+    <div>
+        <input type="checkbox" name="keyword_list" value="print" checked>
+        <input type="checkbox" name="keyword_list" value="input">
+        <input type="checkbox" name="keyword_list" value="for">
+        <input type="checkbox" name="keyword_list" value="if">
+    </div>
+    <input type="submit" value="editor"> 
+</form>
+{% endblock %}
