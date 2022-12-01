@@ -88,7 +88,7 @@ def generate_code(problem_sentence):
     return result_text
 
 
-def compile_code(code, language='python'):
+def compile_code(code, input='', language='python'):
     """
     입력된 String code data 컴파일
 
@@ -106,7 +106,7 @@ def compile_code(code, language='python'):
     data = {
       'code': code,
       'language': lang,
-      'input': ''
+      'input': input
     }
 
     headers = {

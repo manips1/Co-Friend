@@ -48,7 +48,7 @@ def editor(request):
         data = json.loads(request.body)
 
         # compile the code
-        compile_output = api.compile_code(data['source_code'])
+        compile_output = api.compile_code(data['source_code'], data['stdin'])
 
         # response
         response_data = {
@@ -70,7 +70,7 @@ def editor(request):
 
         # generate example code and result
         ex_code = api.generate_code(problem)
-        ex_result = api.compile_code(ex_code)
+        ex_result = api.compile_code(ex_code, '1\r\n2\r\n3\r\n4')
 
         context = {'problem': problem,'ex_result':ex_result}
         return render(request, 'exercises/editor.html', context)

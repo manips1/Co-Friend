@@ -249,7 +249,7 @@ function run() {
     x.parent.header.parent.setActiveContentItem(x);
 
     var sourceValue = sourceEditor.getValue();
-    var stdinValue = encode(stdinEditor.getValue());
+    var stdinValue = stdinEditor.getValue();
     var languageId = resolveLanguageId($selectLanguage.val());
     var compilerOptions = $compilerOptions.val();
     var commandLineArguments = $commandLineArguments.val();
