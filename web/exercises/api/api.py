@@ -118,5 +118,8 @@ def compile_code(code, language='python'):
         j = r.json()
     except:
         return 'Compile server error'
-        
-    return j['output']
+    
+    if j['success']:
+        return j['output']
+    else:
+        return j['error']
