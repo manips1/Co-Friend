@@ -72,5 +72,5 @@ def editor(request):
         ex_code = api.generate_code(problem)
         ex_result = api.compile_code(ex_code, '1\r\n2\r\n3\r\n4')
 
-        context = {'problem': problem,'ex_result':ex_result}
+        context = {'problem': problem, 'ex_result':ex_result, 'ex_code':ex_code}
         return render(request, 'exercises/editor.html', context)
