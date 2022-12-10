@@ -1,6 +1,10 @@
-{% extends 'base.html' %}
 {% load static %}
-{% block style %}
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/golden-layout/1.5.9/goldenlayout.min.js" integrity="sha256-NhJAZDfGgv4PiB+GVlSrPdh3uc75XXYSM4su8hgTchI=" crossorigin="anonymous"></script>
@@ -15,12 +19,6 @@
                 "monaco-emacs": "https://unpkg.com/monaco-emacs/dist/monaco-emacs"
             }
         };
-
-        function share(){
-            var problem = "{{base64_problem}}"
-            prompt('msg','<iframe width="800" height="800" src="http://127.0.0.1:8000/exercises/share/?p=' + problem + '">');
-        };
-        
     </script>
     <script src="https://unpkg.com/monaco-editor/min/vs/loader.js"></script>
     <script src="https://unpkg.com/monaco-editor@0.32.1/min/vs/editor/editor.main.nls.js"></script>
@@ -39,10 +37,13 @@
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-{% endblock %}
 
-{% block content %}
-    <div>-problem-</div>
+    <title>CoFriend</title>
+</head>
+<body>
+
+<!-- 페이지 내용 -->
+<div>-problem-</div>
     <div id="problem">
         {{problem}}
     </div>
@@ -72,9 +73,6 @@
             </div>
             <div class="item no-left-padding borderless">
                 <button id="run-btn" class="ui primary labeled icon button"><i class="play icon"></i>Run (F9)</button>
-            </div>
-            <div class="item no-left-padding borderless">
-                <button id="share-btn" class="ui primary labeled icon button" onclick="share()">Share</button>
             </div>
             <div id="navigation-message" class="item borderless">
                 <span class="navigation-message-text"></span>
@@ -140,4 +138,8 @@
     <div id="code">
         {{ex_code}}
     </div>
-{% endblock %}
+
+
+
+</body>
+</html>
