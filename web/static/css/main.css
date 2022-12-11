@@ -20,28 +20,27 @@ nav
 */
 .navbar{
     margin: auto;
-    padding: 20px 30px 20px 30px;
-    background-color: #000000;
+    padding: 0px 30px 0px 30px;
+    background-color: #ffffff;
     color: #ffffff;
     vertical-align: middle;
 }
 
 .nav-container{
     display: flex;
-    margin: auto;
+    margin: 0px;
     justify-content: space-between;
 }
 
 .nav-logo{
     display: flex;
-    font-size: 35px;
-    text-decoration: none;
-    color: #ffffff;
+    width : 150px;
+    height: 60px;
+    object-fit: cover;
 }
 
 .nav-content{
     display: flex;
-
 }
 
 .nav-item{
@@ -50,13 +49,40 @@ nav
     border-radius: 10px;
     font-size: 20px;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 .nav-item:hover{
     background-color: #ffffff;
     color: #000000;
 }
+
+.login-button{
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    background-color:#33bdef;
+    border-radius:6px;
+    display:flex;
+    cursor: pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size: 16px;
+    font-weight:bold;
+    padding:12px 30px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #5b6178;
+    height:50%;
+    margin: auto 15px auto 15px;
+}
+
+.login-button:hover{
+background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+background-color:#019ad2;
+}
+
+
+
+
 
 /*
 footer
@@ -78,27 +104,147 @@ home main
 
 .home-main{
     padding: 50px 0 50px 0;
-    background-color: #000000;
+    background-image: url("../img/main-background.jpg");
+    background-size: cover;
+    height:850px;
 }
 
-.home-welcome{
-    margin: auto;
-    text-align: center;
-    font-size: 80px;
-    font-family: 'Courier New', monospace;
-    font-weight: normal;
-    color: #ffffff;
+#description-image{
+    margin-left: 100px;
+    margin-right : 100px;
 }
 
-.home-content{
+#web-description-div{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+}
+
+#level-image{
+    margin-left: 100px;
+    margin-right : 100px;
+}
+
+#level-div{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#problem-image{
+    margin-left: 100px;
+    margin-right : 100px;
+}
+
+#problem-div{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: flex;
+}
+
+#grading-image{
+    margin-left: 100px;
+    margin-right : 100px;
+}
+
+#grading-div{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-content1{
+    width: 1200px;
     margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid gray;
+    padding-bottom: 30px;
 }
 
-.home-content-text{
-    margin: 0;
-    padding: 10px 0 10px 0;
-    width: 500px;
-    font-size: 50px;
-    font-family: 'Courier New', monospace;
-    font-weight: normal;
+.home-content2{
+    width: 1200px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid gray;
+    padding-bottom: 30px;
+}
+
+.home-content3{
+    width: 1200px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid gray;
+    padding-bottom: 30px;
+}
+
+.home-content4{
+    width: 1200px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid gray;
+    padding-bottom: 30px;
+}
+
+.home-content5{
+    width: 1200px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.home-content6{
+    width: 1200px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid gray;
+    padding-bottom: 30px;
+}
+
+.introduce{
+    margin: 30px auto 30px auto;
+    width: 1200px;
+    padding-top : 20px;
+}
+
+#div1{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+#div2{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+    justify-content: flex-end;
+}
+
+#div3{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+}
+
+#div4{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+    justify-content: flex-end;
 }

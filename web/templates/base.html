@@ -12,14 +12,16 @@
 <body>
 <!-- 내비게이션바 -->
 <nav class="navbar min-width">
-    <div class="nav-container max-width">
-        <a class="nav-logo" href="/">CoFriend</a>
+    <div class="nav-container">
+        <a class="nav-logo" href="/">
+            <img alt="logo" src="/static/img/logo.png">
+        </a>
         <div class="nav-content">
             <a class="nav-item" href="/">Home</a>
             <a class="nav-item" href="{% url 'exercises:home' %}">Exercises</a>
-            <a class="nav-item" href="#">nav2</a>
-            <a class="nav-item" href="#">nav3</a>
+            <a class="nav-item" href="#">Education</a>
         </div>
+        <a href="#" class="login-button">Login</a>
     </div>
 </nav>
 
