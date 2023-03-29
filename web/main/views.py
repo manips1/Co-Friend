@@ -4,4 +4,14 @@ from django.shortcuts import render
 
 
 def home(request):
+    """main home page view
+
+    Args:
+        request (request): django request
+
+    """
     return render(request, 'main/home.html')
+
+def login(request):
+    
+    return render(request, 'exercises/login.html')
