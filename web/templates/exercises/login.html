@@ -3,15 +3,10 @@
 {% endblock %}
 
 {% block content %}
-<p>exercise home page</p>
-<p>print, input, for, if, math</p>
-<form action="{% url 'login' %}" method="post">
-    {% csrf_token %}
-    <div>
-        {% for v in keywords %}
-        <input type="checkbox" name="keyword_list" value="{{v}}">
-        {% endfor %}
-    </div>
-    <input type="submit" value="editor"> 
-</form>
+
+    {% load static %}
+    {% load socialaccount %}
+    <h2>Hello World!!!!!!!!!!!</h2>
+    <a href="{% provider_login_url 'google' method='oauth2' %}">Google 로그인</a>
+
 {% endblock %}
