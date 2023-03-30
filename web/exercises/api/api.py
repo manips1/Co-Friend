@@ -17,13 +17,14 @@ def create_problem(keywords):
             'code': exam_code}
 
 
-def create_problem_sentence(keywords):
+def create_problem_sentence(keywords, chat=False):
     """
     문제 문장 생성 함수
 
     키워드 -> openai model -> 문제
 
     :param keywords: keyword list
+    :param chat: gpt3.5(chat gpt)
     :return: problem sentence string
     """
 
@@ -38,21 +39,38 @@ def create_problem_sentence(keywords):
 
     """
     API request & response
-
-    model: 모델 이름
-    prompt: 요청 내용
-    temperature: 값이 낮을수록 안정적인 값 출력
-    stop: 문장 출력 종료 조건
     """
-    response = openai.Completion.create(
-        model='davinci:ft-cofriend-2022-10-20-10-23-31',
-        prompt=request_str,
-        temperature=0.7,
-        stop=['.']
+    result_text = ''
+    if chat:
+        """
+        model: 모델 이름
+        content: 요청 내용
+        """
+        response = openai.ChatCompletion.create(
+            model='gpt-3.5-turbo',
+            messages=[
+                {"role": "user", "content": request_str}
+            ]
         )
-    # json 파싱
-    json_object = json.loads(response.__str__())
-    result_text = json_object['choices'][0]['text']
+        # json 파싱
+        json_object = json.loads(response.__str__())
+        result_text = json_object['choices'][0]['message']['content'][1:-2]
+    else:
+        """
+        model: 모델 이름
+        prompt: 요청 내용
+        temperature: 값이 낮을수록 안정적인 값 출력
+        stop: 문장 출력 종료 조건
+        """
+        response = openai.Completion.create(
+            model='davinci:ft-cofriend-2022-10-20-10-23-31',
+            prompt=request_str,
+            temperature=0.7,
+            stop=['.']
+            )
+        # json 파싱
+        json_object = json.loads(response.__str__())
+        result_text = json_object['choices'][0]['text']
 
     # 결과 반환
     return result_text + '.'
