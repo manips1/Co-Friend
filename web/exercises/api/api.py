@@ -141,3 +141,34 @@ def compile_code(code, input='', language='python'):
         return j['output']
     else:
         return j['error']
+
+
+def grade_code(user_code, answer_code):
+    request_str = """
+    Code A is:
+    {}
+
+    Code B is:
+    {}
+
+    Code B is a answer code.
+
+    Grade Code A.
+
+    Please answer this Json format:
+    'pass': True or False,
+    'score': 0~100,
+    'reason':text
+    """.format(user_code, answer_code)
+
+    response = openai.ChatCompletion.create(
+        model='gpt-3.5-turbo',
+        messages=[
+            {"role": "user", "content": request_str}
+        ]
+    )
+    # json 파싱
+    json_object = json.loads(response.__str__())
+    result_text = json_object['choices'][0]['message']['content']
+
+    return json.loads(result_text)
