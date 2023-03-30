@@ -144,6 +144,14 @@ def compile_code(code, input='', language='python'):
 
 
 def grade_code(user_code, answer_code):
+    """
+    코드 채점 후 결괏값 반환
+
+    :param user_code: code string
+    :param answer_code: code string
+    :return: json (pass: boolean, score: number, reason: string)
+    """
+
     request_str = """
     Code A is:
     {}
