@@ -119,7 +119,7 @@ def compile_code(code, input='', language='python'):
     else:
         return 'Unknown language'
 
-    url = 'https://codex-api.herokuapp.com/'
+    url = 'https://api.codex.jaagrav.in'
 
     data = {
       'code': code,
@@ -137,7 +137,7 @@ def compile_code(code, input='', language='python'):
     except:
         return 'Compile server error'
     
-    if j['success']:
+    if j['status'] == 200:
         return j['output']
     else:
         return j['error']
