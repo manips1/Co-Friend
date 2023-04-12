@@ -278,6 +278,7 @@ function run() {
     var csrftoken = getCookie('csrftoken');
 
     var data = {
+        type: 'run',
         source_code: sourceValue,
         language_id: languageId,
         stdin: stdinValue,
@@ -420,6 +421,11 @@ function updateScreenElements() {
         $(this).css("display", display);
     });
 }
+
+setInterval(() => {
+    userCode = document.getElementById('user-code');
+    userCode.value = sourceEditor.getValue();
+}, 500)
 
 $(window).resize(function() {
     layout.updateSize();
