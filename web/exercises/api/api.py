@@ -143,7 +143,7 @@ def compile_code(code, input='', language='python'):
         return j['error']
 
 
-def grade_code(user_code, answer_code):
+def grade_code(problem, user_code, answer_code):
     """
     코드 채점 후 결괏값 반환
 
@@ -153,6 +153,9 @@ def grade_code(user_code, answer_code):
     """
 
     request_str = """
+    The problem is:
+    {}
+    
     Code A is:
     {}
 
@@ -161,16 +164,21 @@ def grade_code(user_code, answer_code):
 
     Code B is a answer code.
 
-    Grade Code A.
-
+    Check the Code A and the output of Code A is the appropriate answer to the problem.
+    If there is no link between Code A and the problem, give 0 points and fail
+    
+    And grade the Code A focusing on similarity to the correct answer code(Code B).
+    If Code A and answer code are not similar, give 0 points and fail.
+    
     Please answer this Json format:
-    'pass': True or False,
-    'score': 0~100,
-    'reason':text
-    """.format(user_code, answer_code)
+    "pass": true or false,
+    "score": 0~100,
+    "reason":text
+    """.format(problem, user_code, answer_code)
 
     response = openai.ChatCompletion.create(
         model='gpt-3.5-turbo',
+        temperature=0.0,
         messages=[
             {"role": "user", "content": request_str}
         ]

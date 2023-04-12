@@ -48,19 +48,21 @@ def editor(request):
         # data from user
         data = json.loads(request.body)
 
-        # compile the code
-        compile_output = api.compile_code(data['source_code'], data['stdin'])
+        if data['type'] == 'run':
 
-        # response
-        response_data = {
-            'status':'ok',
-            'stdout':'',
-            'compile_output': compile_output,
-            'time':'0',
-            'memory':'0'
-        }
+            # compile the code
+            compile_output = api.compile_code(data['source_code'], data['stdin'])
 
-        return JsonResponse(response_data)
+            # response
+            response_data = {
+                'status':'ok',
+                'stdout':'',
+                'compile_output': compile_output,
+                'time':'0',
+                'memory':'0'
+            }
+
+            return JsonResponse(response_data)
 
     # get
     if request.method == 'GET':
@@ -119,6 +121,18 @@ def share(request):
 
         context = {'problem': problem, 'ex_result':ex_result, 'ex_code':ex_code}
         return render(request, 'exercises/share_editor.html', context)
+
+
+@ensure_csrf_cookie
+def grade(request):
+    if request.method == 'POST':
+        problem = request.POST.get('problem')
+        user_code = request.POST.get('user-code')
+        answer_code = request.POST.get('ex-code')
+        grade_result = api.grade_code(problem, user_code, answer_code)
+
+        context = {'pass': grade_result['pass'], 'score': grade_result['score'], 'reason': grade_result['reason']}
+        return render(request, 'exercises/grade.html', context)
 
 
 def test_page(request):
