@@ -22,3 +22,4 @@ This list is about libraries, frameworks and APIs which we are using or we will 
 
 **API**
 * OpenAI Codex: https://openai.com/blog/openai-codex/, https://github.com/openai/
+* CodeX: https://codex.jaagrav.in/, https://github.com/Jaagrav/CodeX-API

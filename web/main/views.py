@@ -11,3 +11,7 @@ def home(request):
 
     """
     return render(request, 'main/home.html')
+
+def login(request):
+    
+    return render(request, 'exercises/login.html')
