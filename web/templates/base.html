@@ -5,34 +5,60 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}">
     {% block style %}
     {% endblock %}
     <title>CoFriend</title>
 </head>
 <body>
-<!-- 내비게이션바 -->
-<nav class="navbar min-width">
-    <div class="nav-container max-width">
-        <a class="nav-logo" href="/">CoFriend</a>
-        <div class="nav-content">
-            <a class="nav-item" href="/">Home</a>
-            <a class="nav-item" href="{% url 'exercises:home' %}">Exercises</a>
-            <a class="nav-item" href="{% url 'exercises:test' %}">test page</a>
-            <a class="nav-item" href="#">nav3</a>
-            <a class="nav-item" href="{% url 'login' %}">Login</a>
-        </div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+        <img src="/static/img/logo.png" width="100px" height="50px">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'exercises:home' %}">Exercise</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'exercises:test' %}">Test</a>
+        </li>
+      </ul>
+        <button type="button" class="btn btn-outline-primary Login">Login</button>
+        <span style="margin: 0 5px"></span>
+        <button type="button" class="btn btn-outline-primary Join">Join</button>
     </div>
+  </div>
 </nav>
 
 <!-- 페이지 내용 -->
 {% block content %}
 {% endblock %}
 
-<footer class="footer-bar min-width">
-    <div class="footer-container max-width">
-        footer
+<footer class="footer-bar">
+    <div>
+        <h2 class="text-uppercase">Team Co-Friend</h2> <br/>
+            <p>Team Leader : Kim Won Jong | Business License : 000-00-0000</p>
+            <p>Address : Gachon University \ CS : +82 (0)0-000-0000, Fax : +82 (0)0-000-0000</p>
+        </div>
+
+    <div>
+        <div> Copyright ⓒ Team Co-Friend</div>
     </div>
 </footer>
+
+<!-- jQuery JS -->
+<script src="{% static 'js/jquery-3.6.4.min.js' %}"></script>
+<!-- Bootstrap JS -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
 
 </body>
 </html>
