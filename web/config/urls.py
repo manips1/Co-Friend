@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from allauth.account.views import confirm_email
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts', include('allauth.urls')),
     path('', include('main.urls'), name='main'),
     path('exercises/', include('exercises.urls'), name='exercises'),
     
