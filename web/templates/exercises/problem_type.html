@@ -4,13 +4,61 @@
 
 {% block content %}
 <p>exercise home page</p>
-<p>print, input, for, if, math</p>
 <form action="{% url 'exercises:problem_type' %}" method="post">
     {% csrf_token %}
     <div>
-        {% for v in keywords %}
-        <input type="checkbox" name="keyword_list" value="{{v}}">
-        {% endfor %}
+        <span>
+            <span>print</span>
+            <input type="checkbox" name="keyword_list" value="print">
+        </span>
+        <span>
+            <span>input</span>
+            <input type="checkbox" name="keyword_list" value="input">
+        </span>
+        <span>
+            <span>list</span>
+            <input type="checkbox" name="keyword_list" value="list">
+        </span>
+        <span>
+            <span>tuple</span>
+            <input type="checkbox" name="keyword_list" value="tuple">
+        </span>
+        <span>
+            <span>set</span>
+            <input type="checkbox" name="keyword_list" value="set">
+        </span>
+        <span>
+            <span>Date</span>
+            <input type="checkbox" name="keyword_list" value="Date">
+        </span>
+        <span>
+            <span>string</span>
+            <input type="checkbox" name="keyword_list" value="string">
+        </span>
+        <span>
+            <span>if</span>
+            <input type="checkbox" name="keyword_list" value="if">
+        </span>
+        <span>
+            <span>for</span>
+            <input type="checkbox" name="keyword_list" value="for">
+        </span>
+        <span>
+            <span>while</span>
+            <input type="checkbox" name="keyword_list" value="while">
+        </span>
+        <span>
+            <span>function</span>
+            <input type="checkbox" name="keyword_list" value="function">
+        </span>
+        <span>
+            <span>math</span>
+            <input type="checkbox" name="keyword_list" value="math">
+        </span>
+        <span>
+            <span>os</span>
+            <input type="checkbox" name="keyword_list" value="os">
+        </span>
     </div>
     <input type="submit" value="editor"> 
 </form>

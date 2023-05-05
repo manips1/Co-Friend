@@ -54,7 +54,7 @@ def create_problem_sentence(keywords, chat=False):
         )
         # json 파싱
         json_object = json.loads(response.__str__())
-        result_text = json_object['choices'][0]['message']['content'][1:-2]
+        result_text = json_object['choices'][0]['message']['content'][0:-2]
     else:
         """
         model: 모델 이름
