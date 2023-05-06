@@ -11,18 +11,33 @@ import base64
 # Create your views here.
 # home
 def home(request):
+    if request.method == 'POST':
+        keyword_list = ['print', 'input', 'for', 'if', 'math']
+
+        # generate a problem with keywords
+        problem = api.create_problem_sentence(keyword_list, False)
+
+        # encode the problem
+        problem_b64 = base64.b64encode(problem.encode('ascii')).decode('ascii')
+        return redirect(reverse('exercises:editor') + '?p=' + problem_b64)
+
+    return render(request, 'exercises/home.html')
+
+
+#problem type
+def problem_type(request):
     """exercises home page view
 
-    Args:
-        request (request): django request
+        Args:
+            request (request): django request
 
-    """
+        """
     # post
     if request.method == 'POST':
         keyword_list = request.POST.getlist('keyword_list')
 
         # generate a problem with keywords
-        problem = api.create_problem_sentence(keyword_list)
+        problem = api.create_problem_sentence(keyword_list, True)
 
         # encode the problem
         problem_b64 = base64.b64encode(problem.encode('ascii')).decode('ascii')
@@ -30,7 +45,7 @@ def home(request):
 
     keywords = ['print', 'input', 'for', 'if', 'math']
     context = {'keywords': keywords}
-    return render(request, 'exercises/home.html', context)
+    return render(request, 'exercises/problem_type.html', context)
 
 
 #editor
@@ -131,7 +146,8 @@ def grade(request):
         answer_code = request.POST.get('ex-code')
         grade_result = api.grade_code(problem, user_code, answer_code)
 
-        context = {'pass': grade_result['pass'], 'score': grade_result['score'], 'reason': grade_result['reason']}
+        context = {'pass': grade_result['pass'], 'score': grade_result['score'], 'reason': grade_result['reason'],
+                   'answer_code': answer_code}
         return render(request, 'exercises/grade.html', context)
 
 
