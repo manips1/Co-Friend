@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.urls import reverse
-from django.views.decorators.csrf import ensure_csrf_cookie
+from django.views.decorators.csrf import ensure_csrf_cookie, csrf_exempt
 from django.views.decorators.clickjacking import xframe_options_exempt
 from exercises.api import api
 import json
@@ -95,7 +95,7 @@ def editor(request):
         return render(request, 'exercises/editor.html', context)
 
 
-@xframe_options_exempt
+@csrf_exempt
 def share(request):
     """exercises editor share page view
 
