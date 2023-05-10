@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
 
     'allauth.socialaccount.providers.google', 
+    'allauth.socialaccount.providers.facebook', 
 ]
 SITE_ID = 1
 
@@ -150,9 +151,44 @@ SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'APP': {
             'client_id': '955793114137-guepu4nu4m8gpbr38ndpcr0erl9871fs.apps.googleusercontent.com',
-            'secret': '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',
+            'secret': '',
             'key': ''
-        }
+        },
+        'SCOPE': [
+            'profile',
+            'email'
+        ],
+        'AUTH_PARAMS': {
+            'access_type': 'online'
+        }  
+    },
+    'facebook': {
+        'APP': {
+            'client_id': '657952129502880',
+            'secret': '',
+            'key': ''
+        },
+        'METHOD': 'oauth2',
+        'SCOPE': ['email'],
+        'AUTH_PARAMS': {'auth_type': 'reauthenticate'},
+        'INIT_PARAMS': {'cookie': True},
+        'FIELDS': [
+            'id',
+            'email',
+            'name',
+            'first_name',
+            'last_name',
+            'verified',
+            'locale',
+            'timezone',
+            'link',
+            'gender',
+            'updated_time',
+        ],
+        'EXCHANGE_TOKEN': True,
+        'LOCALE_FUNC': 'path.to.callable',
+        'VERIFIED_EMAIL': False,
+        'VERSION': 'v13.0',
     }
 }
 
