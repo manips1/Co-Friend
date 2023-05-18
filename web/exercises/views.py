@@ -153,3 +153,6 @@ def grade(request):
 
 def test_page(request):
     return render(request, 'exercises/test_page.html')
+
+def about_us(request):
+    return render(request, 'exercises/about_us.html')
