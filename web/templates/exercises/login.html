@@ -6,6 +6,7 @@
 
 {% load static %}
 {% load socialaccount %}
+{% load api_user %}
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
 <style>
     .btn-social-login {
@@ -36,9 +37,9 @@
 
 <hr>
 <a href="{% provider_login_url 'google' method='oauth2' %}"><button class='btn-social-login' style='background:#D93025'><i class="xi-3x xi-google"></i></button></a>
-<a href="{% provider_login_url 'facebook' %}"><button class='btn-social-login' style='background:#4267B2'><i class="xi-3x xi-facebook"></i></button></a>
-<button class='btn-social-login' style='background:#1FC700'><i class="xi-3x xi-naver"></i></button>
-<button class='btn-social-login' style='background:#FFEB00'><i class="xi-3x xi-kakaotalk text-dark"></i></button>
+<a href="{% provider_login_url 'facebook' method='oauth2' %}"><button class='btn-social-login' style='background:#4267B2'><i class="xi-3x xi-facebook"></i></button></a>
+<a href="{% provider_login_url 'naver' method='oauth2' %}"><button class='btn-social-login' style='background:#1FC700'><i class="xi-3x xi-naver"></i></button></a>
+<a href="{% provider_login_url 'kakao' method='oauth2' %}"><button class='btn-social-login' style='background:#FFEB00'><i class="xi-3x xi-kakaotalk text-dark"></i></button></a>
 
 {% endblock %}
 
