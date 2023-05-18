@@ -55,6 +55,8 @@ INSTALLED_APPS = [
 
     'allauth.socialaccount.providers.google', 
     'allauth.socialaccount.providers.facebook', 
+    'allauth.socialaccount.providers.kakao', 
+    'allauth.socialaccount.providers.naver', 
 ]
 SITE_ID = 1
 
@@ -189,7 +191,19 @@ SOCIALACCOUNT_PROVIDERS = {
         'LOCALE_FUNC': 'path.to.callable',
         'VERIFIED_EMAIL': False,
         'VERSION': 'v13.0',
-    }
+    },
+    'kakao': {
+        'APP': {
+            'client_id': '',
+            'secret': '',
+            'key': ''
+        }
+    },
+    'naver': {'APP': {
+                        'client_id': 'zxBDJQSEqruuqBVTqHf3',
+                        'secret': '',
+                        'key': ''
+                }},
 }
 
 
@@ -208,3 +222,4 @@ ACCOUNT_AUTHENTICATED_LOGIN_REDIRECTS = True
 LOGIN_REDIRECT_URL = "/"
 ACCOUNT_AUTHENTICATED_LOGOUT_REDIRECTS = True
 ACCOUNT_LOGOUT_REDIRECT_URL = "/"
+SOCIALACCOUNT_LOGIN_ON_GET = True
