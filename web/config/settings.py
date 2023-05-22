@@ -48,11 +48,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-
+    'exercises',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-
+    'rest_framework',
     'allauth.socialaccount.providers.google', 
     'allauth.socialaccount.providers.facebook', 
     'allauth.socialaccount.providers.kakao', 
@@ -180,12 +180,6 @@ SOCIALACCOUNT_PROVIDERS = {
             'name',
             'first_name',
             'last_name',
-            'verified',
-            'locale',
-            'timezone',
-            'link',
-            'gender',
-            'updated_time',
         ],
         'EXCHANGE_TOKEN': True,
         'LOCALE_FUNC': 'path.to.callable',
@@ -217,9 +211,9 @@ AUTHENTICATION_BACKENDS = [
 
 
 
-
 ACCOUNT_AUTHENTICATED_LOGIN_REDIRECTS = True
 LOGIN_REDIRECT_URL = "/"
 ACCOUNT_AUTHENTICATED_LOGOUT_REDIRECTS = True
 ACCOUNT_LOGOUT_REDIRECT_URL = "/"
 SOCIALACCOUNT_LOGIN_ON_GET = True
+SOCIALACCOUNT_LOGOUT_ON_GET = True

@@ -1,8 +1,10 @@
 import openai
 import json
 import requests
-
-
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from ..serializers import *
+from rest_framework import status
 def create_problem(keywords):
     """
     문제, 예시 코드 생성 함수
@@ -188,3 +190,17 @@ def grade_code(problem, user_code, answer_code):
     result_text = json_object['choices'][0]['message']['content']
 
     return json.loads(result_text)
+
+
+class UserSolvedProblemlist(APIView):
+    def get(self, request):
+        model = UserSolvedProblems.objects.all()
+        serializer =UserSolvedProblemsSerializer(model, many=True)
+        return Response(serializer.data)
+    
+    def post(self, request):
+        serializer=UserSolvedProblemsSerializer(data =request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

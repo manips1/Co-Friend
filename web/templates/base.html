@@ -35,9 +35,14 @@
           <a class="nav-link" href="{% url 'exercises:about' %}">About us</a>
         </li>
       </ul>
-        <button type="button" class="btn btn-outline-primary Login">Login</button>
-        <span style="margin: 0 5px"></span>
-        <button type="button" class="btn btn-outline-primary Join">Join</button>
+      {% if user.is_authenticated %}
+      <span>{{ user }}님이 로그인중입니다.</span>
+      <a href="/logout"><button type="button" class="btn btn-outline-primary Login">Logout</button></a>
+      {% else %}
+      <a href="{% url 'exercises:login' %}"><button type="button" class="btn btn-outline-primary Login">LogIn</button></a>
+      {% endif %}
+      <span style="margin: 0 5px"></span>
+      <button type="button" class="btn btn-outline-primary Join">Join</button>
     </div>
   </div>
 </nav>
