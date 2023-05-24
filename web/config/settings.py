@@ -48,12 +48,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-
+    'exercises',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-
+    'rest_framework',
     'allauth.socialaccount.providers.google', 
+    'allauth.socialaccount.providers.facebook', 
+    'allauth.socialaccount.providers.kakao', 
+    'allauth.socialaccount.providers.naver', 
 ]
 SITE_ID = 1
 
@@ -150,10 +153,51 @@ SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'APP': {
             'client_id': '955793114137-guepu4nu4m8gpbr38ndpcr0erl9871fs.apps.googleusercontent.com',
-            'secret': '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',
+            'secret': '',
+            'key': ''
+        },
+        'SCOPE': [
+            'profile',
+            'email'
+        ],
+        'AUTH_PARAMS': {
+            'access_type': 'online'
+        }  
+    },
+    'facebook': {
+        'APP': {
+            'client_id': '657952129502880',
+            'secret': '',
+            'key': ''
+        },
+        'METHOD': 'oauth2',
+        'SCOPE': ['email'],
+        'AUTH_PARAMS': {'auth_type': 'reauthenticate'},
+        'INIT_PARAMS': {'cookie': True},
+        'FIELDS': [
+            'id',
+            'email',
+            'name',
+            'first_name',
+            'last_name',
+        ],
+        'EXCHANGE_TOKEN': True,
+        'LOCALE_FUNC': 'path.to.callable',
+        'VERIFIED_EMAIL': False,
+        'VERSION': 'v13.0',
+    },
+    'kakao': {
+        'APP': {
+            'client_id': '',
+            'secret': '',
             'key': ''
         }
-    }
+    },
+    'naver': {'APP': {
+                        'client_id': 'zxBDJQSEqruuqBVTqHf3',
+                        'secret': '',
+                        'key': ''
+                }},
 }
 
 
@@ -167,8 +211,9 @@ AUTHENTICATION_BACKENDS = [
 
 
 
-
 ACCOUNT_AUTHENTICATED_LOGIN_REDIRECTS = True
 LOGIN_REDIRECT_URL = "/"
 ACCOUNT_AUTHENTICATED_LOGOUT_REDIRECTS = True
 ACCOUNT_LOGOUT_REDIRECT_URL = "/"
+SOCIALACCOUNT_LOGIN_ON_GET = True
+SOCIALACCOUNT_LOGOUT_ON_GET = True

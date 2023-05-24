@@ -7,6 +7,9 @@ from django.views.decorators.clickjacking import xframe_options_exempt
 from exercises.api import api
 import json
 import base64
+from rest_framework import generics
+from django.contrib.auth.models import User
+from allauth.socialaccount.models import SocialAccount
 
 # Create your views here.
 # home
@@ -165,3 +168,23 @@ def grade(request):
 
 def test_page(request):
     return render(request, 'exercises/test_page.html')
+
+def about_us(request):
+    return render(request, 'exercises/about_us.html')
+
+
+def login(request):
+    
+    return render(request, 'exercises/login.html')
+
+
+class my_social:
+    def get_current_user_uid(request):
+        if request.user.is_authenticated:
+            try:
+                social_account = SocialAccount.objects.get(user=request.user)
+                uid = social_account.uid
+                return uid
+            except SocialAccount.DoesNotExist:
+                pass
+        return None
