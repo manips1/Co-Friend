@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.urls import reverse
-from django.views.decorators.csrf import ensure_csrf_cookie
+from django.views.decorators.csrf import ensure_csrf_cookie, csrf_exempt
 from django.views.decorators.clickjacking import xframe_options_exempt
 from exercises.api import api
 import json
@@ -22,7 +22,7 @@ def home(request):
 
         # encode the problem
         problem_b64 = base64.b64encode(problem.encode('ascii')).decode('ascii')
-        return redirect(reverse('exercises:editor') + '?p=' + problem_b64)
+        return redirect(reverse('exercises:editor') + '?p=' + problem_b64 + '&chat=false')
 
     return render(request, 'exercises/home.html')
 
@@ -44,11 +44,12 @@ def problem_type(request):
 
         # encode the problem
         problem_b64 = base64.b64encode(problem.encode('ascii')).decode('ascii')
-        return redirect(reverse('exercises:editor') + '?p=' + problem_b64)
+        keywords = ''
+        for keyword in keyword_list:
+            keywords += '&keyword=' + keyword
+        return redirect(reverse('exercises:editor') + '?p=' + problem_b64 + '&chat=true' + keywords)
 
-    keywords = ['print', 'input', 'for', 'if', 'math']
-    context = {'keywords': keywords}
-    return render(request, 'exercises/problem_type.html', context)
+    return render(request, 'exercises/problem_type.html')
 
 
 #editor
@@ -90,15 +91,23 @@ def editor(request):
         # decode problem
         problem = base64.b64decode(problem).decode('ascii')
 
+        is_chat = request.GET.get('chat')
+        keywords = ''
+        if is_chat:
+            keyword_list = request.GET.getlist('keyword')
+            for keyword in keyword_list:
+                keywords += keyword + ','
+
         # generate example code and result
         ex_code = api.generate_code(problem)
         ex_result = api.compile_code(ex_code, '1\r\n2\r\n3\r\n4')
 
-        context = {'problem': problem, 'ex_result':ex_result, 'ex_code':ex_code, 'base64_problem': b64_p}
+        context = {'problem': problem, 'ex_result': ex_result, 'ex_code': ex_code, 'base64_problem': b64_p,
+                   'is_chat': is_chat, 'keywords': keywords[:-1]}
         return render(request, 'exercises/editor.html', context)
 
 
-@xframe_options_exempt
+@csrf_exempt
 def share(request):
     """exercises editor share page view
 
@@ -149,8 +158,11 @@ def grade(request):
         answer_code = request.POST.get('ex-code')
         grade_result = api.grade_code(problem, user_code, answer_code)
 
+        is_chat = request.POST.get('is-chat')
+        keywords = request.POST.get('keywords').split(',')
+
         context = {'pass': grade_result['pass'], 'score': grade_result['score'], 'reason': grade_result['reason'],
-                   'answer_code': answer_code}
+                   'answer_code': answer_code, 'is_chat': is_chat, 'keywords': keywords}
         return render(request, 'exercises/grade.html', context)
 
 
