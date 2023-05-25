@@ -1,6 +1,13 @@
-{% extends 'base.html' %}
 {% load static %}
-{% block style %}
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}">
+    <!-- jQuery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/golden-layout/1.5.9/goldenlayout.min.js" integrity="sha256-NhJAZDfGgv4PiB+GVlSrPdh3uc75XXYSM4su8hgTchI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/golden-layout/1.5.9/css/goldenlayout-base.css" integrity="sha256-oIDR18yKFZtfjCJfDsJYpTBv1S9QmxYopeqw2dO96xM=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/golden-layout/1.5.9/css/goldenlayout-dark-theme.css" integrity="sha256-ygw8PvSDJJUGLf6Q9KIQsYR3mOmiQNlDaxMLDOx9xL0=" crossorigin="anonymous" />
@@ -18,7 +25,7 @@
             var problem = "{{base64_problem}}"
             prompt('msg','<iframe width="800" height="800" src="http://127.0.0.1:8000/exercises/share/?p=' + problem + '">');
         };
-        
+
     </script>
     <script src="https://unpkg.com/monaco-editor/min/vs/loader.js"></script>
     <script src="https://unpkg.com/monaco-editor@0.32.1/min/vs/editor/editor.main.nls.js"></script>
@@ -37,10 +44,12 @@
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-{% endblock %}
+    <title>CoFriend</title>
+</head>
+<body>
 
-{% block content %}
-    <div>-problem-</div>
+<!-- 페이지 내용 -->
+<div>-problem-</div>
     <div id="problem">
         {{problem}}
     </div>
@@ -143,4 +152,17 @@
         <span>© 2016-2022 <a href="https://judge0.com?ref=ide">Judge0</a>
         <span id="status-line"></span>
     </div>
-{% endblock %}
+
+<footer class="footer-bar">
+    <div>
+        <h2 class="text-uppercase">Team Co-Friend</h2> <br/>
+            <p>Team Leader : Kim Won Jong | Business License : 000-00-0000</p>
+            <p>Address : Gachon University \ CS : +82 (0)0-000-0000, Fax : +82 (0)0-000-0000</p>
+        </div>
+
+    <div>
+        <div> Copyright ⓒ Team Co-Friend</div>
+    </div>
+</footer>
+</body>
+</html>
