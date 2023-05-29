@@ -10,6 +10,10 @@ import base64
 from rest_framework import generics
 from django.contrib.auth.models import User
 from allauth.socialaccount.models import SocialAccount
+import requests
+import matplotlib.pyplot as plt
+import matplotlib
+from requests.exceptions import RequestException
 
 # Create your views here.
 # home
@@ -191,6 +195,45 @@ def about_us(request):
 def login(request):
     
     return render(request, 'exercises/login.html')
+
+def mypage(request):
+    matplotlib.use('Agg')
+    # API에서 데이터 가져오기
+    username = request.user.username
+    print(username)
+    url = 'http://127.0.0.1:8000/api/solved_list/'+ username+ '/'
+    response = requests.get(url)
+    data = response.json()
+    print(data)
+    # 데이터 가공
+    if data:
+        problems = data['problems']
+        solved = data['solved']
+    else:
+        problems = 0
+        solved = 0
+
+    # 파이 차트 생성
+    labels = ['Solved', 'Unsolved']
+    sizes = [int(solved), int(problems) - int(solved)]
+    colors = ['#ff9999', '#66b3ff']
+
+    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
+    plt.axis('equal')
+    plt.title('Problem Status')
+
+    # 파이 차트를 이미지로 저장
+    chart_image_path = 'static/chart.png'
+    plt.savefig(chart_image_path)
+
+    # 템플릿에 전달할 context 설정
+    context = {
+        'chart_image_path': chart_image_path,
+    }
+    
+    return render(request, 'exercises/mypage.html')
+
+
 
 
 class my_social:

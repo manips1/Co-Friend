@@ -204,3 +204,19 @@ class UserSolvedProblemlist(APIView):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+
+class UserSolvedProblemlistDetail(APIView):
+    def get(self, request, username):
+        model = UserSolvedProblems.objects.get(user__username=username)
+        serializer =UserSolvedProblemsSerializer(model)
+        return Response(serializer.data)
+   
+    def put(self, request, username):
+        model =UserSolvedProblems.objects.get(user__username=username)
+        serializer =UserSolvedProblemsSerializer(model, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST) 
+
