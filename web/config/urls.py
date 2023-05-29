@@ -18,8 +18,7 @@ from django.urls import path, include
 from allauth.account.views import confirm_email
 from django.contrib.auth import logout
 from django.shortcuts import redirect
-from exercises.api.api import UserSolvedProblemlist
-
+from exercises.api.api import UserSolvedProblemlist, UserSolvedProblemlistDetail
 def logout_view(request):
     # 추가적인 로그아웃 전처리 작업이 있다면 여기에 추가
 
@@ -33,4 +32,5 @@ urlpatterns = [
     path('exercises/', include('exercises.urls'), name='exercises'),
     path('logout/', logout_view, name='logout'),
     path('api/solved_list/', UserSolvedProblemlist.as_view(), name='problem_list'),
+    path('api/solved_list/<str:username>/', UserSolvedProblemlistDetail.as_view(), name='problem_list'),
 ]

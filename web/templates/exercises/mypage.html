@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block style %}
+{% endblock %}
+
+{% block content %}
+<body>
+    <h1>My Page</h1>
+
+    {% load static %}
+    <img src="{% static 'chart.png' %}" alt="Problem Status Chart">
+</body>
+{% endblock %}
+

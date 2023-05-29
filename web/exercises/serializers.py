@@ -3,11 +3,13 @@ from django.contrib.auth.models import User
 from .models import UserSolvedProblems
 
 class UserSolvedProblemsSerializer(serializers.ModelSerializer):
-    username = serializers.CharField(source='user.username', read_only=True)
+    user = serializers.CharField(required=False)
+    problems = serializers.CharField(required=False)
+    solved = serializers.CharField(required=False)
 
     class Meta:
         model = UserSolvedProblems
-        fields = ['user','username','problems', 'solved']
+        fields = ['user','problems', 'solved']
 
 
 
