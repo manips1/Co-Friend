@@ -74,6 +74,13 @@
             <div class="item no-left-padding borderless">
                 <button id="run-btn" class="ui primary labeled icon button"><i class="play icon"></i>Run (F9)</button>
             </div>
+            <form class="item no-left-padding borderless" action="{% url 'exercises:share_grade' %}" method="post">
+                {% csrf_token %}
+                <input type="text" name="problem" style="display: none" value="{{problem}}">
+                <input type="text" id="user-code" style="display: none" name="user-code" value="">
+                <input type="text" id="ex-code" style="display: none" name="ex-code" value="{{ex_code}}">
+                <input type="submit" class="ui primary labeled icon button" value="Grade">
+            </form>
             <div id="navigation-message" class="item borderless">
                 <span class="navigation-message-text"></span>
             </div>
@@ -134,12 +141,6 @@
         <span>© 2016-2022 <a href="https://judge0.com?ref=ide">Judge0</a>
         <span id="status-line"></span>
     </div>
-
-    <div id="code">
-        {{ex_code}}
-    </div>
-
-
 
 </body>
 </html>

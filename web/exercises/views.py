@@ -138,6 +138,7 @@ def share(request):
     # get
     if request.method == 'GET':
         problem = request.GET.get('p', None)
+        b64_p = problem
 
         # decode problem
         problem = base64.b64decode(problem).decode('ascii')
@@ -146,7 +147,7 @@ def share(request):
         ex_code = api.generate_code(problem)
         ex_result = api.compile_code(ex_code, '1\r\n2\r\n3\r\n4')
 
-        context = {'problem': problem, 'ex_result':ex_result, 'ex_code':ex_code}
+        context = {'problem': problem, 'ex_result': ex_result, 'ex_code': ex_code, 'base64_problem': b64_p}
         return render(request, 'exercises/share_editor.html', context)
 
 
@@ -166,8 +167,22 @@ def grade(request):
         return render(request, 'exercises/grade.html', context)
 
 
+@csrf_exempt
+def share_grade(request):
+    if request.method == 'POST':
+        problem = request.POST.get('problem')
+        user_code = request.POST.get('user-code')
+        answer_code = request.POST.get('ex-code')
+        grade_result = api.grade_code(problem, user_code, answer_code)
+
+        context = {'pass': grade_result['pass'], 'score': grade_result['score'], 'reason': grade_result['reason'],
+                   'answer_code': answer_code}
+        return render(request, 'exercises/share_grade.html', context)
+
+
 def test_page(request):
     return render(request, 'exercises/test_page.html')
+
 
 def about_us(request):
     return render(request, 'exercises/about_us.html')
