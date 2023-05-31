@@ -5,9 +5,11 @@
 {% block content %}
 <body>
     <h1>My Page</h1>
-
+    <h1>Problems: {{ problems }}</h1>
+    <h1>Solved: {{ solved }}</h1>
     {% load static %}
     <img src="{% static 'chart.png' %}" alt="Problem Status Chart">
+
 </body>
 {% endblock %}
 
