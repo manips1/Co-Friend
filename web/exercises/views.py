@@ -14,6 +14,8 @@ import requests
 import matplotlib.pyplot as plt
 import matplotlib
 from requests.exceptions import RequestException
+from django.contrib.auth.models import User
+from .models import UserSolvedProblems
 
 # Create your views here.
 # home
@@ -162,12 +164,32 @@ def grade(request):
         user_code = request.POST.get('user-code')
         answer_code = request.POST.get('ex-code')
         grade_result = api.grade_code(problem, user_code, answer_code)
-
+        username = request.user.username
         is_chat = request.POST.get('is-chat')
         keywords = request.POST.get('keywords').split(',')
 
         context = {'pass': grade_result['pass'], 'score': grade_result['score'], 'reason': grade_result['reason'],
                    'answer_code': answer_code, 'is_chat': is_chat, 'keywords': keywords}
+        
+                # UserSolvedProblems 모델 인스턴스 가져오기
+        try:
+            user_solved_problems = UserSolvedProblems.objects.get(user__username=username)
+        except UserSolvedProblems.DoesNotExist:
+            # 사용자에 대한 UserSolvedProblems 인스턴스가 없는 경우, 생성
+            user = User.objects.get(username=username)
+            user_solved_problems = UserSolvedProblems.objects.create(user=user)
+
+        if grade_result['pass'] == True:
+            # problems 필드 값 1 증가
+            user_solved_problems.problems = str(int(user_solved_problems.problems) + 1)
+
+            # solved 필드 값 1 증가
+            user_solved_problems.solved += 1
+            user_solved_problems.save()
+        else:
+            # problems 필드 값 1 증가
+            user_solved_problems.problems = str(int(user_solved_problems.problems) + 1)
+            user_solved_problems.save()
         return render(request, 'exercises/grade.html', context)
 
 
@@ -207,8 +229,9 @@ def mypage(request):
     print(data)
     # 데이터 가공
     if data:
-        problems = data['problems']
-        solved = data['solved']
+        problems = int(data['problems'])  # 정수로 변환
+        solved = int(data['solved'])  # 정수로 변환
+        success_rate = solved / problems * 100  # 정답률 계산
     else:
         problems = 0
         solved = 0
@@ -216,22 +239,34 @@ def mypage(request):
     # 파이 차트 생성
     labels = ['Solved', 'Unsolved']
     sizes = [int(solved), int(problems) - int(solved)]
-    colors = ['#ff9999', '#66b3ff']
+    colors = ['#E0708C', '#70B3E0']  # 멋진 색상으로 변경
+    textprops = {'fontsize': 12, 'color': 'white', 'fontweight': 'bold'}  # 텍스트 스타일 변경
+    explode = [0.05, 0]  # 조각 분리
 
-    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
+    plt.figure(figsize=(8, 6))  # 차트의 크기 조정
+
+    # 파이 차트
+    plt.subplot(2, 2, 1)  # 그리드에 위치 설정
+    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90,
+            explode=explode, textprops=textprops, shadow=True)  # 디자인 요소 적용
     plt.axis('equal')
     plt.title('Problem Status')
 
-    # 파이 차트를 이미지로 저장
+
+    # 차트 이미지를 저장
     chart_image_path = 'static/chart.png'
+    plt.tight_layout()  # 차트 간격 조정
     plt.savefig(chart_image_path)
 
     # 템플릿에 전달할 context 설정
     context = {
         'chart_image_path': chart_image_path,
+        'problems': problems,
+        'solved': solved,
+        'success_rate': success_rate,
     }
     
-    return render(request, 'exercises/mypage.html')
+    return render(request, 'exercises/mypage.html', context)
 
 
 
