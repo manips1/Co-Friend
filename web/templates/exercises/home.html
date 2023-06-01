@@ -3,22 +3,30 @@
 {% endblock %}
 
 {% block content %}
-<div class = "exercise-home-main">
-    <div class = "random-button">
-        <img src="/static/img/random-problem-icon.png" alt="random problem" width="150px" height="100px">
-        <span style="margin-top: 50px"></span>
-        <form action="{% url 'exercises:home' %}" method="post">
-            {% csrf_token %}
-            <input type="submit" class="btn btn-outline-primary random_problem" value="random problem">
-        </form>
+<div class=" exercise-home-container">
+    <div class = "exercise-home-main">
+        <div class="exercise-home-text">
+            <p class="exercise-home-text1">Exercise</p>
+            <p class="exercise-home-text2">exercise</p>
+        </div>
     </div>
-    <div class='v-line'></div>
-    <div class = "chatgpt-button">
-        <img src="/static/img/chatgpt-icon.png" alt="random problem" width="150px" height="100px">
-        <span style="margin-top: 50px"></span>
-        <form action="{% url 'exercises:problem_type' %}" method="get">
-            <input type="submit" class="btn btn-outline-primary chatgpt_problem" value="chat-gpt problem">
-        </form>
+    <div class = "exercise-home-choose">
+        <div class = "random-button">
+            <img src="/static/img/random-problem-icon.png" alt="random problem" width="150px" height="100px">
+            <span style="margin-top: 50px"></span>
+            <form action="{% url 'exercises:home' %}" method="post">
+                {% csrf_token %}
+                <input type="submit" class="btn btn-outline-primary random_problem" value="random problem">
+            </form>
+        </div>
+        <div class='v-line'></div>
+        <div class = "chatgpt-button">
+            <img src="/static/img/chatgpt-icon.png" alt="random problem" width="150px" height="100px">
+            <span style="margin-top: 50px"></span>
+            <form action="{% url 'exercises:problem_type' %}" method="get">
+                <input type="submit" class="btn btn-outline-primary chatgpt_problem" value="chat-gpt problem">
+            </form>
+        </div>
     </div>
 </div>
 {% endblock %}
