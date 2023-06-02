@@ -268,13 +268,15 @@ body{
 }
 
 .problem-type-container{
-    padding-top:7vh;
+    height:758px;
+    padding-top:9vh;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align:center;
     width: 100vw;
+    padding-bottom: 5vh;
 }
 
 .problem-type-main{
@@ -288,4 +290,15 @@ body{
     justify-content: center;
     align-items: center;
     text-align:center;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+.exercise_title {
+    font-size : 50px;
+    font-family : fantasy;
+    font-style : oblique;
 }

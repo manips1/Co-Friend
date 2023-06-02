@@ -4,60 +4,60 @@
 
 {% block content %}
 <div class ="problem-type-container">
-    <p>exercise home page</p>
+    <p class="exercise_title">Choose the field you want to do</p>
     <form action="{% url 'exercises:problem_type' %}" method="post">
         {% csrf_token %}
         <div class="problem-type-main">
             <div class="type-problem">
-                <img src="/static/img/print-icon.png" width="150px" height="70px">
-                <input type="checkbox" name="keyword_list" value="print">
-            </div>
-            <div class="type-problem">
-                <img src="/static/img/input-icon.png" width="150px" height="75px">
+                <img src="/static/img/input-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="input">
             </div>
             <div class="type-problem">
-                <img src="/static/img/list-icon.png" width="150px" height="75px">
+                <img src="/static/img/list-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="list">
             </div>
             <div class="type-problem">
-                <img src="/static/img/tuple-icon.png" width="150px" height="75px">
+                <img src="/static/img/tuple-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="tuple">
             </div>
             <div class="type-problem">
-                <img src="/static/img/set-icon.png" width="150px" height="75px">
+                <img src="/static/img/set-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="set">
             </div>
+        </div>
+        <div class="problem-type-main">
             <div class="type-problem">
-                <img src="/static/img/date-icon.png" width="150px" height="75px">
+                <img src="/static/img/date-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="Date">
             </div>
             <div class="type-problem">
-                <img src="/static/img/string-icon.png" width="150px" height="75px">
+                <img src="/static/img/string-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="string">
             </div>
             <div class="type-problem">
-                <img src="/static/img/if-icon.png" width="150px" height="75px">
+                <img src="/static/img/if-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="if">
             </div>
             <div class="type-problem">
-                <img src="/static/img/for-icon.png" width="150px" height="75px">
+                <img src="/static/img/for-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="for">
             </div>
+        </div>
+        <div class="problem-type-main">
             <div class="type-problem">
-                <img src="/static/img/while-icon.png" width="150px" height="75px">
+                <img src="/static/img/while-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="while">
             </div>
             <div class="type-problem">
-                <img src="/static/img/function-icon.png" width="150px" height="75px">
+                <img src="/static/img/function-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="function">
             </div>
             <div class="type-problem">
-                <img src="/static/img/math-icon.png" width="150px" height="75px">
+                <img src="/static/img/math-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="math">
             </div>
             <div class="type-problem">
-                <img src="/static/img/os-icon.png" width="150px" height="75px">
+                <img src="/static/img/os-icon.png" width="250px" height="125px">
                 <input type="checkbox" name="keyword_list" value="os">
             </div>
         </div>

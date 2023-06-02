@@ -152,7 +152,7 @@ SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'APP': {
             'client_id': '955793114137-guepu4nu4m8gpbr38ndpcr0erl9871fs.apps.googleusercontent.com',
-            'secret': '',
+            'secret': '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',
             'key': ''
         },
         'SCOPE': [
@@ -161,12 +161,12 @@ SOCIALACCOUNT_PROVIDERS = {
         ],
         'AUTH_PARAMS': {
             'access_type': 'online'
-        }  
+        }
     },
     'facebook': {
         'APP': {
             'client_id': '657952129502880',
-            'secret': '',
+            'secret': '10e9382e54bbadea4d78d2c817aa4688',
             'key': ''
         },
         'METHOD': 'oauth2',
@@ -179,6 +179,12 @@ SOCIALACCOUNT_PROVIDERS = {
             'name',
             'first_name',
             'last_name',
+            'verified',
+            'locale',
+            'timezone',
+            'link',
+            'gender',
+            'updated_time',
         ],
         'EXCHANGE_TOKEN': True,
         'LOCALE_FUNC': 'path.to.callable',
@@ -187,14 +193,14 @@ SOCIALACCOUNT_PROVIDERS = {
     },
     'kakao': {
         'APP': {
-            'client_id': '',
+            'client_id': 'e3017b6f510ccabf65be95aa530bb7f4',
             'secret': '',
             'key': ''
         }
     },
     'naver': {'APP': {
                         'client_id': 'zxBDJQSEqruuqBVTqHf3',
-                        'secret': '',
+                        'secret': 'lqaEhciyz6',
                         'key': ''
                 }},
 }
