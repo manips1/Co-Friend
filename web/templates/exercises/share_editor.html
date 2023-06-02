@@ -77,8 +77,8 @@
             <form class="item no-left-padding borderless" action="{% url 'exercises:share_grade' %}" method="post">
                 {% csrf_token %}
                 <input type="text" name="problem" style="display: none" value="{{problem}}">
-                <input type="text" id="user-code" style="display: none" name="user-code" value="">
-                <input type="text" id="ex-code" style="display: none" name="ex-code" value="{{ex_code}}">
+                <textarea id="user-code" style="display: none" name="user-code"></textarea>
+                <textarea id="ex-code" style="display: none" name="ex-code">{{ex_code}}</textarea>
                 <input type="submit" class="ui primary labeled icon button" value="Grade">
             </form>
             <div id="navigation-message" class="item borderless">

@@ -7,7 +7,8 @@
 <p>{{pass}}</p>
 <p>{{score}}</p>
 <p>{{reason}}</p>
-<p>{{answer_code}}</p>
+<pre>{{answer_code}}</pre>
+<input type="button" value="다시풀기" onClick="history.go(-1)">
 <form action="{% url 'exercises:home' %}" method="get">
     <input type="submit" value="문제 선택 페이지">
 </form>

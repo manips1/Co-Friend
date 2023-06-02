@@ -424,7 +424,7 @@ function updateScreenElements() {
 
 setInterval(() => {
     userCode = document.getElementById('user-code');
-    userCode.value = sourceEditor.getValue();
+    userCode.innerHTML = sourceEditor.getValue();
 }, 500)
 
 $(window).resize(function() {
