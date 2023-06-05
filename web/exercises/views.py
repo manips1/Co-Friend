@@ -231,7 +231,10 @@ def mypage(request):
     if data:
         problems = int(data['problems'])  # 정수로 변환
         solved = int(data['solved'])  # 정수로 변환
-        success_rate = solved / problems * 100  # 정답률 계산
+        if problems == 0:
+            success_rate = 0
+        else:
+            success_rate = solved / problems * 100  # 정답률 계산
     else:
         problems = 0
         solved = 0
