@@ -206,3 +206,51 @@ body {
 input[type="text"] {
     width: 205px !important;
 }
+
+.problem-container{
+    background-color: black;
+}
+
+.problem {
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: white;
+}
+
+.problem-1 {
+    font-size: 40px;
+    font-family : fantasy;
+    font-style : oblique;
+}
+
+.problem-2 {
+    font-size: 25px;
+    font-style : oblique;
+}
+
+.ex-result{
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: white;
+}
+
+.ex-result-1 {
+    font-size: 40px;
+    font-family : fantasy;
+    font-style : oblique;
+}
+
+.ex-result-2 {
+    font-size: 25px;
+    font-style : oblique;
+}
+

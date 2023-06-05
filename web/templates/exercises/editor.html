@@ -49,16 +49,23 @@
 <body>
 
 <!-- 페이지 내용 -->
-<div>-problem-</div>
-    <div id="problem">
-        {{problem}}
+<div class = "problem-container">
+    <div class="problem">
+        <div class="problem-1">Problem</div>
+        <br>
+        <div class="problem-2">
+           Q. {{problem}}
+        </div>
     </div>
-    <br/>
-    <div>-example result-</div>
-    <div id="ex-result">
-        {{ex_result}}
+        <br/>
+    <div class="ex-result">
+        <div class="ex-result-1">Example result</div>
+        <br>
+        <div class="ex-result-2">
+            Result : {{ex_result}}
+        </div>
     </div>
-
+</div>
     <div id="site-navigation" class="ui small inverted menu">
         <div class="left menu">
             <div class="ui dropdown item site-links on-hover">

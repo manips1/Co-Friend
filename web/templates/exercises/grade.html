@@ -3,27 +3,47 @@
 {% endblock %}
 
 {% block content %}
-<p>grade page</p>
-<p>{{pass}}</p>
-<p>{{score}}</p>
-<p>{{reason}}</p>
-<pre>{{answer_code}}</pre>
-<input type="button" value="다시풀기" onClick="history.go(-1)">
-<form action="{% url 'exercises:home' %}" method="get">
-    <input type="submit" value="문제 선택 페이지">
-</form>
+<div class="grade-main">
+        <div class="grade-main-text">
+            <p class="grade-main-text1">Result of the grading</p>
+        </div>
+</div>
+<div class="grade-info">
+    <p class="result-1">Result</p>
+    <p class="result-2">{{pass}}</p>
+    <p class="score-1">Score</p>
+    <p class="score-2">{{score}}</p>
+    <p class="result-reason-1">Result Reason</p>
+    <p class="result-reason-2">{{reason}}</p>
+    <p class="answer-code-1"> Answer code </p>
+    <pre class = "answer-code-2">{{answer_code}}</pre>
+</div>
 {% if is_chat == 'true' %}
 <form action="{% url 'exercises:problem_type' %}" method="post">
     {% csrf_token %}
     {% for keyword in keywords %}
     <input type="checkbox" name="keyword_list" style="display: none" value="{{keyword}}" checked>
     {% endfor %}
-    <input type="submit" value="다음 문제">
+    <input type="button" class="btn btn-outline-primary" value="Repeat" onClick="history.go(-1)">
+    &nbsp &nbsp &nbsp &nbsp
+    <form action="{% url 'exercises:home' %}" method="get">
+        <input type="submit" class="btn btn-outline-primary"  value="Go to Choose Problem Page">
+    </form>
+    &nbsp &nbsp &nbsp &nbsp
+    <input type="submit"  class="btn btn-outline-primary"  value="Next Problem">
 </form>
 {% else %}
 <form action="{% url 'exercises:home' %}" method="post">
     {% csrf_token %}
-    <input type="submit" value="다음 문제">
+    <div class="grade-buttons">
+        <input type="button" class="btn btn-outline-primary" value="Repeat" onClick="history.go(-1)">
+        &nbsp &nbsp &nbsp &nbsp
+        <form action="{% url 'exercises:home' %}" method="get">
+            <input type="submit" class="btn btn-outline-primary"  value="Go to Choose Problem Page">
+        </form>
+        &nbsp &nbsp &nbsp &nbsp
+        <input type="submit" class="btn btn-outline-primary"  value="Next Problem">
+    </div>
 </form>
 {% endif %}
 {% endblock %}

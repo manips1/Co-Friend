@@ -34,8 +34,10 @@ body{
 }
 
 .home-main-text{
-    font-size:50px;
     color: #ffffff;
+    font-size : 50px;
+    font-family : cursive;
+    font-style : oblique;
 }
 
 .home-info{
@@ -47,11 +49,15 @@ body{
     display: flex;
     flex-direction: column;
     text-align:center;
+    font-family : fantasy;
+    font-style : oblique;
+
 }
 
 .home-info-text{
     width:1000px;
     font-size:25px;
+
 }
 
 .home-info-feature{
@@ -81,13 +87,15 @@ body{
     text-align:center;
     align-items: center;
     justify-content: center;
+    font-family : fantasy;
+    font-style : oblique;
 }
 
 .feature-1-2 {
     width:50%;
     height:50vh;
     background-size: cover;
-    background-image: url('/static/img/feature-level.jpg')
+    background-image: url('/static/img/feature-problem.jpg')
 }
 
 .feature-2{
@@ -110,6 +118,8 @@ body{
     text-align:center;
     align-items: center;
     justify-content: center;
+    font-family : fantasy;
+    font-style : oblique;
 }
 
 .feature-3{
@@ -126,13 +136,15 @@ body{
     text-align:center;
     align-items: center;
     justify-content: center;
+    font-family : fantasy;
+    font-style : oblique;
 }
 
 .feature-3-2 {
     width:50%;
     height:50vh;
-    background-size: cover;
-    background-image: url('/static/img/feature-problem.jpg')
+    background-size: 50vw 50vh;
+    background-image: url('/static/img/feature-gpt.jpg')
 }
 
 .footer-bar{
@@ -143,6 +155,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #CCEEFF;
+    font-family : fantasy;
 }
 
 .exercise-home-container {
@@ -159,6 +172,7 @@ body{
     justify-content: center;
     text-align:center;
     align-items:center;
+    font-family : fantasy;
 }
 
 .exercise-home-choose {
@@ -216,6 +230,7 @@ body{
     flex-direction: column;
     justify-content: center;
     text-align:center;
+    font-family : fantasy;
 }
 
 .about-us-main-text1{
@@ -301,4 +316,157 @@ input[type="checkbox"] {
     font-size : 50px;
     font-family : fantasy;
     font-style : oblique;
+}
+
+
+.grade-main {
+    padding-top: 7vh;
+    background-image: url('/static/img/about-us-main.jpg');
+    background-size: cover;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    font-family : fantasy;
+}
+
+.grade-main-text1{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+
+.grade-buttons{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align:center;
+    padding-bottom : 3vh;
+}
+
+.grade-info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result-1{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family : fantasy;
+    background-color: #ccff00;
+}
+
+.result-2{
+    font-size: 25px;
+}
+
+.score-1{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family : fantasy;
+    background-color: #ccff00;
+}
+
+.score-2{
+    font-size: 25px;
+}
+
+.result-reason-1{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family : fantasy;
+    background-color: #ccff00;
+}
+
+.result-reason-2{
+    width : 85%;
+    text-align : center;
+    font-size: 25px;
+}
+
+.answer-code-1{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-family : fantasy;
+    background-color: #ccff00;
+}
+
+.answer-code-2{
+    font-size: 20px;
+}
+
+.login-main{
+    padding-top: 9vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height: 80vh;
+}
+
+.login-wrapper{
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.login-social{
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    height: 50vh;
+}
+
+.login-wrapper > h2{
+    font-size: 40px;
+    color: #6A24FE;
+    margin-bottom: 20px;
+    font-family : fantasy;
+}
+#login-form > input{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+#login-form > input::placeholder{
+    color: #D2D2D2;
+}
+#login-form > input[type="submit"]{
+    color: #fff;
+    font-size: 16px;
+    background-color: #6A24FE;
+    margin-top: 20px;
+}
+
+#login-form > input[type="checkbox"]{
+    display: none;
+}
+#login-form > label{
+    color: #999999;
+}
+#login-form input[type="checkbox"] + label{
+    cursor: pointer;
+    padding-left: 26px;
+    background-image: url("checkbox.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#login-form input[type="checkbox"]:checked + label{
+    background-image: url("checkbox-active.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }

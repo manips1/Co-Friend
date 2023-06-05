@@ -26,20 +26,22 @@
     }
 </style>
 
-<hr>
-<button class='btn-social-login' style='background:#D93025'><i class="xi-2x xi-google"></i></button>
-<button class='btn-social-login' style='background:#4267B2'><i class="xi-2x xi-facebook"></i></button>
-<button class='btn-social-login' style='background:#55ACEE'><i class="xi-2x xi-twitter"></i></button>
-<button class='btn-social-login' style='background:#24292E'><i class="xi-2x xi-github"></i></button>
-<button class='btn-social-login' style='background:#1FC700'><i class="xi-2x xi-naver"></i></button>
-<button class='btn-social-login' style='background:#FFEB00'><i class="xi-2x xi-kakaotalk text-dark"></i></button>
-
-<hr>
-<a href="{% provider_login_url 'google' method='oauth2' %}"><button class='btn-social-login' style='background:#D93025'><i class="xi-3x xi-google"></i></button></a>
-<a href="{% provider_login_url 'facebook' method='oauth2' %}"><button class='btn-social-login' style='background:#4267B2'><i class="xi-3x xi-facebook"></i></button></a>
-<a href="{% provider_login_url 'naver' method='oauth2' %}"><button class='btn-social-login' style='background:#1FC700'><i class="xi-3x xi-naver"></i></button></a>
-<a href="{% provider_login_url 'kakao' method='oauth2' %}"><button class='btn-social-login' style='background:#FFEB00'><i class="xi-3x xi-kakaotalk text-dark"></i></button></a>
-
+<div class="login-main">
+    <div class="login-wrapper">
+        <h2>Login</h2>
+        <form method="post" action="서버의url" id="login-form">
+            <input type="text" name="userName" placeholder="Email">
+            <input type="password" name="userPassword" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <div class="login-social">
+        <a href="{% provider_login_url 'google' method='oauth2' %}"><button class='btn-social-login' style='background:#D93025'><i class="xi-3x xi-google"></i></button></a>
+        <a href="{% provider_login_url 'facebook' method='oauth2' %}"><button class='btn-social-login' style='background:#4267B2'><i class="xi-3x xi-facebook"></i></button></a>
+        <a href="{% provider_login_url 'naver' method='oauth2' %}"><button class='btn-social-login' style='background:#1FC700'><i class="xi-3x xi-naver"></i></button></a>
+        <a href="{% provider_login_url 'kakao' method='oauth2' %}"><button class='btn-social-login' style='background:#FFEB00'><i class="xi-3x xi-kakaotalk text-dark"></i></button></a>
+    </div>
+</div>
 {% endblock %}
 
 
