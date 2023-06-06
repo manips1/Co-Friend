@@ -1,4 +1,5 @@
 body{
+    background-color: #f5f5f7;
     margin: 0;
 }
 
@@ -8,12 +9,12 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    background-color: #ffffff;
+    background-color: #f5f5f7;
 }
 
 .navbar-collapse{
     padding : 20px;
-    background-color: #ffffff;
+    background-color: #f5f5f7;
 }
 
 .home-container {
@@ -23,9 +24,9 @@ body{
 }
 
 .home-main {
-    background-image: url('/static/img/main_background.jpg');
+    background-color: #212529;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -34,22 +35,24 @@ body{
 }
 
 .home-main-text{
+    margin-bottom: 30px;
+    text-align: left;
     color: #ddf56d;
     font-size : 90px;
-    font-family : Aeonik Fono,sans-serif;
+    font-family: 'Urbanist', sans-serif;
 }
 
-.home-main-description{
-    color: #ffffff;
-    font-size : 30px;
-    font-family : 'NectoMono',Arial,sans-serif;
+.move-exercise{
+    padding: 10px 60px 10px 60px !important;
+    font-family: 'Didact Gothic', sans-serif !important;
+    font-size: 25px !important;
 }
 
 .home-info{
     padding-top:70px;
     padding-bottom: 70px;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #f5f5f7;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -84,7 +87,7 @@ body{
     height: 350px;
     padding: 30px;
     border-radius: 20px;
-    background-color: #ecedf2;
+    background-color: #ffffff;
 }
 
 .feature-item-title{

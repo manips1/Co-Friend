@@ -4,14 +4,15 @@
 <div class="home-container">
 
     <div class="home-main">
-        <div class="home-main-text">
-                { START_YOUR_CODING }
-        </div>
-        <div class="home-main-description">
-            Co-Friend provides a variety of problems for coding beginners
-        </div>
-        <div class="d-grid gap-2 col-6 mt-5 mx-auto">
-            <a href="{% url 'exercises:login' %}"><button type="button" class="btn btn-primary btn-lg move_exercise">Login & Go to Exercise</button></a>
+        <h1 class="home-main-text">
+            {<br/>
+            START,<br/>
+            YOUR,<br/>
+            CODING,<br/>
+            }
+        </h1>
+        <div class="d-grid gap-2 col-6 mt-3 mx-auto">
+            <a href="{% url 'exercises:login' %}"><button type="button" class="btn btn-primary btn-lg move-exercise">Login & Go to Exercise</button></a>
         </div>
     </div>
 
