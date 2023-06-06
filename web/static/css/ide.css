@@ -208,28 +208,32 @@ input[type="text"] {
 }
 
 .problem-container{
-    background-color: black;
+    padding: 20px;
+    background-color: #212529;
 }
 
 .problem {
     padding-top: 3vh;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align:center;
     color: white;
 }
 
 .problem-1 {
-    font-size: 40px;
-    font-family : fantasy;
-    font-style : oblique;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 30px;
+    font-family : 'NectoMono',Arial,sans-serif;
 }
 
 .problem-2 {
-    font-size: 25px;
-    font-style : oblique;
+    text-align: left;
+    font-size: 20px;
+    font-family : 'NectoMono',Arial,sans-serif;
+    color: #ced4da;
 }
 
 .ex-result{
@@ -238,19 +242,21 @@ input[type="text"] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align:center;
     color: white;
 }
 
 .ex-result-1 {
-    font-size: 40px;
-    font-family : fantasy;
-    font-style : oblique;
+    padding-bottom: 30px;
+    text-align: left;
+    font-size: 30px;
+    font-family : 'NectoMono',Arial,sans-serif;
 }
 
 .ex-result-2 {
-    font-size: 25px;
-    font-style : oblique;
+    text-align: left;
+    font-size: 20px;
+    font-family : 'NectoMono',Arial,sans-serif;
+    color: #ced4da;
 }
 

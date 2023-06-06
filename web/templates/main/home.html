@@ -5,62 +5,41 @@
 
     <div class="home-main">
         <div class="home-main-text">
-                Automatic scoring coding homepage <br/> that provides a variety of problems for coding beginners
+                { START_YOUR_CODING }
+        </div>
+        <div class="home-main-description">
+            Co-Friend provides a variety of problems for coding beginners
         </div>
         <div class="d-grid gap-2 col-6 mt-5 mx-auto">
-                <button type="button" class="btn btn-primary btn-lg move_exercise">Login & Go to Exercise</button>
-        s</div>
+            <a href="{% url 'exercises:login' %}"><button type="button" class="btn btn-primary btn-lg move_exercise">Login & Go to Exercise</button></a>
+        </div>
     </div>
 
     <div class="home-info">
         <div class="home-info-text">
-            <h1>What is Co-Friend?</h1>
-            Co-Friend is a website that automatically generates problems <br/> so that coding beginners can solve many problems <br/> by solving various problems by difficulty.
+            <h1 class="home-info-text-title">What is Co-Friend?</h1>
+            <br />
+            <div class="home-info-text-article"> Co-Friend is a website that automatically generates problems <br/> so that coding beginners can solve many problems <br/> by solving various problems by difficulty.</div>
             <div class="home-info-feature">
-                <div>
-                    <img src="/static/img/problem-icon.png" width="150px" height="150px">
-                    <p><br/>Auto Problem Generation</p>
+                <div class="home-info-feature-item">
+                    <img src="/static/img/problem-icon.png" width="100px" height="100px">
+                    <br/>
+                    <div class="feature-item-title">Auto Problem Generation</div>
+                    <div class="feature-item-article">Co-friend can solve many different problems by automatically creating new problems!</div>
                 </div>
-                <div>
-                    <img src="/static/img/grading-icon.png" width="150px" height="150px">
-                    <p><br/>Auto Grading</p>
+                <div class="home-info-feature-item">
+                    <img src="/static/img/grading-icon.png" width="100px" height="100px">
+                    <br/>
+                    <div class="feature-item-title">Auto Grading</div>
+                    <div class="feature-item-article">Co-friend automatically scores newly created questions and tells you what's wrong with the results</div>
                 </div>
-                <div>
-                    <img src="/static/img/chatgpt-icon.png" width="150px" height="150px">
-                    <p><br/>Using Chat GPT Engine</p>
+                <div class="home-info-feature-item">
+                    <img src="/static/img/chatgpt-icon.png" width="100px" height="100px">
+                    <br/>
+                    <div class="feature-item-title">Using Chat GPT Engine</div>
+                    <div class="feature-item-article">Cuses Chat GPT engines to generate additional problems, <br>not its own problem-generating engine</div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="home-feature">
-        <div class="feature-1">
-            <div class="feature-1-1">
-                <br>
-                <h2>Key Technology: Automatic Problem Generation System</h2>
-                <br>
-                <h4>Co-friend can solve many different problems <br> by automatically creating new problems!</h4>
-            </div>
-            <div class="feature-1-2"></div>
-        </div>
-        <div class="feature-2">
-            <div class="feature-2-1"></div>
-            <div class="feature-2-2">
-                <br>
-                <h2>Key Technologies: Automatic Scoring System</h2>
-                <br>
-                <h4>Co-friend automatically scores newly created questions <br> and tells you what's wrong with the results</h4>
-            </div>
-        </div>
-        <div class="feature-3">
-            <div class="feature-3-1">
-                <br>
-                <h2>Key Technology: Chat GPT Problem Generation System</h2>
-                <br>
-                <h4>Cuses Chat GPT engines to generate additional problems, <br>not its own problem-generating engine
-                </h4>
-            </div>
-            <div class="feature-3-2"></div>
         </div>
     </div>
 </div>

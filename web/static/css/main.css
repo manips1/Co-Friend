@@ -34,28 +34,39 @@ body{
 }
 
 .home-main-text{
+    color: #ddf56d;
+    font-size : 90px;
+    font-family : Aeonik Fono,sans-serif;
+}
+
+.home-main-description{
     color: #ffffff;
-    font-size : 50px;
-    font-family : cursive;
-    font-style : oblique;
+    font-size : 30px;
+    font-family : 'NectoMono',Arial,sans-serif;
 }
 
 .home-info{
-    border-top: 3px solid #000000;
     padding-top:70px;
-    height: 600px;
+    padding-bottom: 70px;
+    height: 100%;
     background-color: #ffffff;
     align-items: center;
     display: flex;
     flex-direction: column;
     text-align:center;
-    font-family : fantasy;
-    font-style : oblique;
+    font-family : Opensauceone, sans-serif;
+}
 
+.home-info-text-title{
+    font-size: 60px;
+}
+
+.home-info-text-article{
+    font-size: 20px;
 }
 
 .home-info-text{
-    width:1000px;
+    width:1400px;
     font-size:25px;
 
 }
@@ -66,6 +77,28 @@ body{
     display:flex;
     justify-content: space-between;
     padding-top:70px;
+}
+
+.home-info-feature-item{
+    width: 420px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #ecedf2;
+}
+
+.feature-item-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-family: Opensauceone, sans-serif;
+    font-weight: 300;
+}
+
+.feature-item-article{
+    font-size: 18px;
+    font-family: Opensauceone, sans-serif;
+    font-weight: 300;
 }
 
 .home-feature{
