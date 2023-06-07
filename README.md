@@ -11,15 +11,19 @@ Co-Friend will be a Coding Practice Service for Beginners.
 ## Libraries,  Frameworks and APIs
 This list is about libraries, frameworks and APIs which we are using or we will use.
 
-**Machine learning / Deep learning**
-* scikit-learn: https://scikit-learn.org/stable/, https://github.com/scikit-learn
-* TensorFlow: https://www.tensorflow.org/, https://github.com/tensorflow
-* Keras: https://keras.io/, https://github.com/keras-team
+**OpenAI API**
+* GPT-3(Fine-Tuning): https://openai.com/blog/openai-codex/, https://github.com/openai/
+* Codex:
+* ChatGPT:
 
 **Web**
 * Django: https://www.djangoproject.com/, https://github.com/django
 * Bootstrap: https://getbootstrap.com/, https://github.com/twbs
 
-**API**
-* OpenAI Codex: https://openai.com/blog/openai-codex/, https://github.com/openai/
+**Social Login**
+Google:
+Naver:
+Kakao:
+
+**Other APIs**
 * CodeX: https://codex.jaagrav.in/, https://github.com/Jaagrav/CodeX-API
