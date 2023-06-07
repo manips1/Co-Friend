@@ -21,9 +21,10 @@ This list is about libraries, frameworks and APIs which we are using or we will 
 * Bootstrap: https://getbootstrap.com/, https://github.com/twbs
 
 **Social Login**
-Google:
-Naver:
-Kakao:
+* Google:
+* Facebook:
+* Naver:
+* Kakao:
 
 **Other APIs**
 * CodeX: https://codex.jaagrav.in/, https://github.com/Jaagrav/CodeX-API
