@@ -12,9 +12,10 @@ Co-Friend will be a Coding Practice Service for Beginners.
 This list is about libraries, frameworks and APIs which we are using or we will use.
 
 **OpenAI API**
-* GPT-3(Fine-Tuning): https://openai.com/blog/openai-codex/, https://github.com/openai/
-* Codex:
-* ChatGPT:
+* https://github.com/openai/
+* GPT-3(Fine-Tuning): https://platform.openai.com/docs/guides/fine-tuning
+* Codex: https://openai.com/blog/openai-codex/
+* ChatGPT: https://openai.com/chatgpt
 
 **Web**
 * Django: https://www.djangoproject.com/, https://github.com/django
