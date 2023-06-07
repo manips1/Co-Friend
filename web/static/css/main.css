@@ -195,7 +195,7 @@ body{
 }
 
 .exercise-home-container {
-    padding-top:9vh;
+    padding-top:7vh;
     display:flex;
     flex-direction:column;
 }
@@ -505,4 +505,48 @@ input[type="checkbox"] {
     background-image: url("checkbox-active.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.my-page-container{
+    padding-top: 7vh;
+}
+
+.my-page-container2{
+    width : 100%
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+}
+
+.my-page-main {
+    background-image: url('/static/img/about-us-main.jpg');
+    background-size: cover;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    font-family : fantasy;
+}
+
+.my-page-text1{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.my-page-text2{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.my-page-result {
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align:center;
+    font-family : fantasy;
 }

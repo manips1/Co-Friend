@@ -3,13 +3,28 @@
 {% endblock %}
 
 {% block content %}
-<body>
-    <h1>My Page</h1>
-    <h1>Problems: {{ problems }}</h1>
-    <h1>Solved: {{ solved }}</h1>
-    {% load static %}
-    <img src="{% static 'chart.png' %}" alt="Problem Status Chart">
-
-</body>
+<div class = "my-page-container">
+    <div class="my-page-main">
+        <div class="my-page-text">
+            <p class="my-page-text1">My Page</p>
+            <p class="my-page-text2">Check your coding learning status</p>
+        </div>
+    </div>
+    <div class="my-page-container2">
+        <div class="my-page-result">
+            <div class="my-page-chart">
+                {% load static %}
+                <img src="{% static 'chart1.png' %}" alt="Problem Status Chart">
+            </div>
+            <div class="my-page-info">
+                <h1> Number of Questions: {{ problems }}</h1>
+                <br>
+                <h1> Solved Questions: {{ solved }}</h1>
+                <br>
+                <h1> Wrong Questions:  </h1>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
 
