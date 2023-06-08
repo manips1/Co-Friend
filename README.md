@@ -22,10 +22,9 @@ This list is about libraries, frameworks and APIs which we are using or we will 
 * Bootstrap: https://getbootstrap.com/, https://github.com/twbs
 
 **Social Login**
-* Google:
-* Facebook:
-* Naver:
-* Kakao:
+* django-allauth: https://github.com/pennersr/django-allauth
+* Google, Facebook, Naver, Kakao
 
 **Other APIs**
+* Judge0 IDE: https://ide.judge0.com/, https://github.com/judge0/ide
 * CodeX: https://codex.jaagrav.in/, https://github.com/Jaagrav/CodeX-API
