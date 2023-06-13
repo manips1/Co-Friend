@@ -9,7 +9,7 @@ Co-Friend will be a Coding Practice Service for Beginners.
 * 김원종: https://github.com/kwjdnjs
 
 ## Libraries,  Frameworks and APIs
-This list is about libraries, frameworks and APIs which we are using or we will use.
+This list is about libraries, frameworks and APIs which we are using.
 
 **OpenAI API**
 * https://github.com/openai/
